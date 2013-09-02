@@ -1,0 +1,243 @@
+
+
+/*Import Skin Color file */
+@import url(css/mj-blue.css);
+/************************/
+
+@import url(css/bootstrap-responsive.css);
+@import url(css/bootstrap.css);
+@import url(css/template.css);
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans|Open+Sans);
+@import url(css/style.css);
+@import url(css/demopages.css);
+@import url(css/mj-general.css);
+@import url(css/mj-color.css);
+@import url(css/mj-ie.css);
+@import url(css/mj-layout.css);
+@import url(css/mj-mobile.css);
+@import url(css/mj-tab.css);
+@import url(css/mj-template.css);
+
+
+/*Home Page Main Image Slider Effect*/
+/*@import url(css/fade/effect.css);
+@import url(css/fade/fade.fx_2.css);
+@import url(css/fade/fade.fx_3.css);
+@import url(css/fade/fade.fx_4.css);
+@import url(css/fade/fade.fx_5.css);
+@import url(css/kenburns/effect.css);
+@import url(css/kenburns/kenburns.fx_2.css);
+@import url(css/kenburns/kenburns.fx_3.css);
+@import url(css/kenburns/kenburns.fx_4.css);
+@import url(css/kenburns/kenburns.fx_5.css);*/
+/*@import url(css/transform/effect.fx_2.css);*/
+/*@import url(css/transform/effect.fx_4.css);
+@import url(css/transform/effect.fx_5.css);*/
+
+@import url(css/transform/effect.css);
+
+@import url(css/transform/effect.fx_3.css);
+
+
+
+#contact_submit a{
+     color: #FFFFFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border-radius: 3px 3px 3px 3px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0;
+    padding: 5px 12px;
+    text-decoration: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-image: url(/Portals/_default/Skins/MNuke/images/mj-buttons.png);
+    background-repeat: repeat-x;
+    background-position: 100% 0;
+}
+
+.dnnFAQs table {
+    border:0px;
+}
+.dnnFAQs table td {
+    padding:0;
+    }
+.mainsearch {
+    width:100%;
+}
+.dnnFAQs table tr:nth-child(2n+1) {
+    background-color:transparent;
+}
+.dnnFAQs table tr:first-child {
+       background-color:transparent;
+}
+
+
+.leftsearch {
+    
+}
+#form_main .dnnFormItem > .dnnLabel {
+    width: 5%;
+text-align: left;
+}
+#form_main .dnnFormItem span.dnnFormMessage.dnnFormError {
+    right:68%;
+}
+
+.search_result {
+    width:100%;
+    margin:0 auto;
+    float:left;
+    
+}
+.search_result_inner {
+    width:90%;
+    margin:0 auto;
+    padding:5px;
+}
+#dnn_search_txtSearch {
+  line-height: 0px;
+
+margin: 0 auto;
+padding: 0;
+}
+
+#dnn_search_cmdSearch {
+    font-size: 12px;
+    margin: 2px !important;
+    padding: 0;
+    /*width: 14% !important;*/
+    color: #FFFFFF;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border-radius: 3px 3px 3px 3px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0;
+    /*padding: 5px 12px;*/
+    padding-left: 4px;
+    padding-right: 4px;
+    text-decoration: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-image: url(/Portals/_default/Skins/MNuke/images/mj-buttons.png);
+    background-repeat: repeat-x;
+    background-position: 100% 0;
+}
+
+.mj-mainnav.navbar .nav > li > a, .mj-mainnav.navbar .nav-collapse .nav > li > a, .mj-mainnav.navbar .nav-collapse ul.nav li a {
+    background-color: transparent;
+}
+
+.mj-mainnav.navbar .nav > li ul.nav-child li a {
+    background-color: #ffffff;
+}
+
+.mj-mainnav.navbar .nav > li > a, .mj-mainnav.navbar .nav-collapse .nav > li > a, .mj-mainnav.navbar .nav-collapse ul.nav li a {
+    color: #ffffff;
+}
+
+.mj-mainnav.navbar .nav > li ul.nav-child li a, .mj-mainnav.navbar .nav-collapse ul.nav li.active > ul.nav-child li a {
+    color: #555555;
+}
+
+.mj-mainnav.navbar .nav > li > a {
+    font-size: 20px;
+}
+
+.mj-mainnav.navbar .nav > li ul.nav-child li a {
+    font-size: 16;
+}
+
+
+@media (max-width: 979px) {
+    .navbar .btn-navbar {
+        display: block;
+        border: 0px;
+border-radius: 5px;
+    }
+}
+
+html[xmlns] .cleardiv {
+    display: block;
+}
+
+#dnn_rightPane {
+    background: url(../images/featured_bg.png) repeat scroll 0 0 transparent;
+}
+
+#dnn_rightPane_b_1.contentPane {
+    float: left;
+    width: 14.666%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: left;
+}
+
+#dnn_rightPane_b_2.contentPane {
+    float: left;
+    width: 14.666%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: left;
+}
+
+#dnn_rightPane_b_3.contentPane {
+    float: left;
+    width: 14.666%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: left;
+}
+
+#dnn_rightPane_b_4.contentPane {
+    float: left;
+    width: 14.666%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: left;
+}
+
+#dnn_rightPane_b_5.contentPane {
+    float: left;
+    width: 14.666%;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: left;
+}
+
+#dnn_rightPane_b_6.contentPane {
+    float: left;
+    width: 14.666%;
+    text-align: left;
+}
+
+.mejs-container {
+    position: relative;
+    background: #000;
+    font-family: Helvetica,Arial;
+    text-align: left;
+    vertical-align: top;
+    margin: 20px auto 0;
+}
+
+#mj-right .mejs-container {
+}
+
+#mj-featured2 {
+    min-height: 350px;
+}
+
+#twitter-widget-0 {
+    height: 228px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+

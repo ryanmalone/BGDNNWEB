@@ -1,0 +1,23 @@
+2013-09-02 11:04:42,027 [blond-laptop-01][Thread:8][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status() in c:\Dev\DotNetNuke_Community_07.01.01_Source\Community\Library\Common\Globals.cs:line 575
+   at DotNetNuke.Common.Initialize.CheckVersion(HttpApplication app) in c:\Dev\DotNetNuke_Community_07.01.01_Source\Community\Library\Common\Initialize.cs:line 104
+   at DotNetNuke.Common.Initialize.InitializeApp(HttpApplication app, Boolean& initialized) in c:\Dev\DotNetNuke_Community_07.01.01_Source\Community\Library\Common\Initialize.cs:line 190
+   at DotNetNuke.Common.Initialize.Init(HttpApplication app) in c:\Dev\DotNetNuke_Community_07.01.01_Source\Community\Library\Common\Initialize.cs:line 288
+   at DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication.Application_BeginRequest(Object sender, EventArgs e) in c:\Dev\DotNetNuke_Community_07.01.01_Source\Community\DotNetNuke.Web\Common\DotNetNukeHttpApplication.cs:line 173
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-09-02 11:06:21,289 [blond-laptop-01][Thread:5][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status() in c:\Dev\DotNetNuke_Community_07.01.01_Source\Community\Library\Common\Globals.cs:line 575
+   at DotNetNuke.Services.Log.EventLog.LogController.AddLog(LogInfo logInfo) in c:\Dev\DotNetNuke_Community_07.01.01_Source\Community\Library\Services\Log\EventLog\LogController.cs:line 177
+   at DotNetNuke.Common.Initialize.LogEnd() in c:\Dev\DotNetNuke_Community_07.01.01_Source\Community\Library\Common\Initialize.cs:line 384
+2013-09-02 12:36:37,823 [blond-laptop-01][Thread:45][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Xml.XmlException: 'EndElement' is an invalid XmlNodeType. Line 36, position 313.
+   at System.Xml.XmlReader.ReadStartElement(String name)
+   at DotNetNuke.Modules.Blog.Common.Globals.ReadMultiLingualText(XmlReader reader, String name, String& defaultText, LocalizedText& localizedTexts)
+   at DotNetNuke.Modules.Blog.Entities.Blogs.BlogInfo.ReadXml(XmlReader reader)
+2013-09-02 12:36:37,888 [blond-laptop-01][Thread:45][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Exception: An error occured during import of an Blog ---> System.Xml.XmlException: 'EndElement' is an invalid XmlNodeType. Line 36, position 313.
+   at System.Xml.XmlReader.ReadStartElement(String name)
+   at DotNetNuke.Modules.Blog.Common.Globals.ReadMultiLingualText(XmlReader reader, String name, String& defaultText, LocalizedText& localizedTexts)
+   at DotNetNuke.Modules.Blog.Entities.Blogs.BlogInfo.ReadXml(XmlReader reader)
+   --- End of inner exception stack trace ---
+   at DotNetNuke.Modules.Blog.Entities.Blogs.BlogInfo.ReadXml(XmlReader reader)
+   at DotNetNuke.Modules.Blog.Integration.BlogModuleController.ImportModule(Int32 ModuleID, String Content, String Version, Int32 UserID)

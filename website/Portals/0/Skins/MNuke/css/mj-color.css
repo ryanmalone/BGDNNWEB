@@ -1,0 +1,38 @@
+/*
+* @package mj_simple
+*@copyright (C) 2012 by Dasinfomedia - All rights reserved!
+*/
+
+/*
+.mj-colorbox {
+    background: none repeat scroll 0 0 #2789C7;
+}*/
+
+
+#mj-topbar {
+  background-color: #000000;
+  border-bottom: 1px dashed #474747;
+}
+
+#mj-topbar li a {
+  color: #FFFFFF;
+}
+
+#mj-header {
+  background-color: #000000;
+    color: #FFFFFF;
+}
+
+#mj-featured1, #mj-featured2 {
+  background: url(../images/featured_bg.png) repeat scroll 0 0 transparent;
+}
+
+#mj-maincontent {
+  background-color: #F9F9F9;
+}
+
+#mj-copyright {
+    background-color: #000000;
+    color: #FFFFFF;
+  border-top: 1px dashed #454545;
+}

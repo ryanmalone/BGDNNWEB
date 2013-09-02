@@ -1,0 +1,44 @@
+DNNInfo© - http://www.dnninfo.com
+
+License and Term of Use
+
+1. Installation of DNNInfo ImageGallery module (STANDARD EDITION) is limited to one website only (multiple subdomains are allowed).  
+2. Installation of DNNInfo ImageGallery module (ENTERPRISE EDITION) is unlimited. 
+3. You must include our license information on every installation. The best way is to leave license.txt as it is.
+4. DNNInfo YoutubePlayer module is not an open source module, therefore You are not permitted to sell, sublicense, or distribute to any third party without our permission.
+5. Our software is provided as is, without warranty or any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in contract, strict liability, or tort arising in any use or dealings with this software.
+
+
+
+ICON AND OTHER LICENSES
+======================================
+
+Onebit free icon set #2
+------------------------------------------
+Ammount of icons: 30
+Sizes: 48x48
+File Types: .png
+License: These icons are free to use in any kind of commercial or non-commercial project unlimited times.
+URL: http://www.icojoy.com/articles/46/
+
+Onebit free icon set
+------------------------------------------
+Ammount of icons: 50
+Sizes: 48x48
+File Types: .png
+License: These icons are free to use in any kind of commercial or non-commercial project unlimited times.
+URL: http://www.icojoy.com/articles/44/
+
+Free web development icons #4b
+------------------------------------------
+Ammount of icons: 80
+Icon Sizes: 24x24
+File Types: .png, .ico, .tif, .gif, .bmp
+Colors: Colored with and without shadows, with a subtle gray shade and transparent 
+.bmp, .gif formats are optimized for lighter backgrounds.
+License: These icons are free to use in any kind of project unlimited times.
+url: http://www.icojoy.com/articles/49/
+
+
+
+

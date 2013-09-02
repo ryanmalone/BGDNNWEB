@@ -1,0 +1,21 @@
+﻿<Objects>
+  <Object>
+    <Token>[NAV]</Token>
+    <Settings>
+      <Setting>
+        <Name>ProviderName</Name>
+        <Value>DNNMenuNavigationProvider</Value>
+      </Setting>
+      <Setting>
+        <Name>CSSNodeRoot</Name>
+        <Value>temp</Value>
+      </Setting>
+      <Setting>
+        <Name>CSSContainerSub</Name>
+        <Value>temp</Value>
+      </Setting>
+      
+    </Settings>
+   
+  </Object>
+</Objects>

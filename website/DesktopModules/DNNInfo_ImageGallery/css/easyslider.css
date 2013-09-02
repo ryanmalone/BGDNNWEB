@@ -1,0 +1,46 @@
+﻿
+/* Easy Slider */
+.DNNInfo_ImageGallery_EasySliderGalleryContainer
+{
+    position:relative;
+}
+
+ul.DNNInfo_ImageGallery_EasySliderGalleryUL, ul.DNNInfo_ImageGallery_EasySliderGalleryUL li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+	
+/* numeric controls */	
+ol.DNNInfo_ImageGallery_EasySliderGalleryOlList{
+	margin:1em 0;
+	padding:0;
+	height:28px;	
+}
+
+ol.DNNInfo_ImageGallery_EasySliderGalleryOlList li{
+	margin:0 10px 0 0; 
+	padding:0;
+	float:left;
+	list-style:none;
+	height:28px;
+	line-height:28px;
+}
+
+ol.DNNInfo_ImageGallery_EasySliderGalleryOlList li a{
+	float:left;
+	height:28px;
+	line-height:28px;
+	border:1px solid #ccc;
+	background:#DAF3F8;
+	color:#555;
+	padding:0 10px;
+	text-decoration:none;
+}
+
+ol.DNNInfo_ImageGallery_EasySliderGalleryOlList li.current a{
+	background:#5DC9E1;
+	color:#fff;
+}
+
+ol.DNNInfo_ImageGallery_EasySliderGalleryOlList li a:focus{outline:none;}

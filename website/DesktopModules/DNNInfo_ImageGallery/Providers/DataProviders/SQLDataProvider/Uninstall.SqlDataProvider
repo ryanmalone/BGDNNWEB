@@ -1,0 +1,68 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+/** Drop HitCounter Table **/
+
+DROP TABLE {databaseOwner}[{objectQualifier}DNNInfo_ImageGallery_Settings]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}DNNInfo_ImageGallery_Images]
+GO
+
+DROP TABLE {databaseOwner}[{objectQualifier}DNNInfo_ImageGallery_Albums]
+GO
+
+/** Drop Stored Procedures **/
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DNNInfo_ImageGallery_DeleteAlbum]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DNNInfo_ImageGallery_DeleteImage]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DNNInfo_ImageGallery_GetAlbum]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DNNInfo_ImageGallery_GetAlbums]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DNNInfo_ImageGallery_GetImage]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DNNInfo_ImageGallery_GetImages]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DNNInfo_ImageGallery_GetSetting]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DNNInfo_ImageGallery_GetTotalAlbums]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DNNInfo_ImageGallery_GetTotalImages]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DNNInfo_ImageGallery_NewAlbum]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DNNInfo_ImageGallery_NewImage]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DNNInfo_ImageGallery_UpdateAlbum]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DNNInfo_ImageGallery_UpdateImage]
+GO
+
+DROP PROCEDURE {databaseOwner}[{objectQualifier}DNNInfo_ImageGallery_UpdateSetting]
+GO
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/

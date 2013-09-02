@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnUpload.Text" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="ErrorUploadLicense.Text" xml:space="preserve">
+    <value>There is a problem uploading your license on the site. Please place the license manually on the root folder of ~/DesktopModules/DNNInfo_Classifieds</value>
+  </data>
+  <data name="InvalidLicense.Text" xml:space="preserve">
+    <value>You have tried uploaded invalid license. Please upload license (in xml format only)</value>
+  </data>
+  <data name="lblLicenseKey.Text" xml:space="preserve">
+    <value>License Key</value>
+  </data>
+  <data name="lblLicenseStatus.Text" xml:space="preserve">
+    <value>License Status</value>
+  </data>
+  <data name="lblLicenseTo.Text" xml:space="preserve">
+    <value>License To</value>
+  </data>
+  <data name="lblNote.Text" xml:space="preserve">
+    <value>This module has not been licensed/registered. A license key can be purchased from our store at &lt;a href="http://www.dnninfo.com/buynow.aspx" target="_blank"&gt;http://www.dnninfo.com/buynow.aspx&lt;/a&gt;. If you have a valid license key. Please upload the license (xml file) in here. &lt;p&gt;We normally will contact you via email once you have purchased our standard module in 24 hrs. If we have not, you can fill in this form at [$LICENSEURL]. Once we have reviewed your order, we will activate the license for your domain.&lt;/p&gt;</value>
+  </data>
+  <data name="lblVersion.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="LicenseUploaded.Text" xml:space="preserve">
+    <value>The license has been uploaded successfully</value>
+  </data>
+  <data name="UploadLicenseRequired.Text" xml:space="preserve">
+    <value>The license xml file is required</value>
+  </data>
+  <data name="litLicense.Text" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="FREE.Text" xml:space="preserve">
+    <value>FREE</value>
+  </data>
+  <data name="LICENSED.Text" xml:space="preserve">
+    <value>LICENSED</value>
+  </data>
+  <data name="ONTRIAL.Text" xml:space="preserve">
+    <value>ON TRIAL</value>
+  </data>
+  <data name="TRIALEXPIRED.Text" xml:space="preserve">
+    <value>TRIAL EXPIRED</value>
+  </data>
+  <data name="btnGetLicense.Text" xml:space="preserve">
+    <value>Get License</value>
+  </data>
+  <data name="lblLicenseNote.Text" xml:space="preserve">
+    <value>Your current license key is outdated and you are eligible for free upgrade. Please click the &lt;strong&gt;Get License&lt;/strong&gt; button to obtain your new license.</value>
+  </data>
+  <data name="LicenseGenerated.Text" xml:space="preserve">
+    <value>A new license has been successfully created and placed on your site</value>
+  </data>
+</root>

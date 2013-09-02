@@ -1,0 +1,17 @@
+<div class="blog_commentbuttons">
+ <a href="#"
+  id="commentLikeLink[comment:CommentID]"
+  class="blogicon-thumbs-up"
+  title="[resx:LikeComment]"
+  onclick="karmaToggle(this, [blog:blogid], [comment:CommentID], 0);return false;"></a>
+ <a href="#"
+  id="commentDislikeLink[comment:CommentID]"
+  class="blogicon-thumbs-down"
+  title="[resx:DislikeComment]"
+  onclick="karmaToggle(this, [blog:blogid], [comment:CommentID], 1);return false;"></a>
+ <a href="#" 
+  id="commentReportLink[comment:CommentID]"
+  class="blogicon-warning-sign"
+  title="[resx:ReportComment]"
+  onclick="karmaToggle(this, [blog:blogid], [comment:CommentID], 2, '[resx:ReportComment.Confirm]');return false;"></a>
+</div>

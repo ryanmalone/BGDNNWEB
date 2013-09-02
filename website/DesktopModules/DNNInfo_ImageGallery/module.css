@@ -1,0 +1,254 @@
+﻿.dnnLabel {
+    display:inline-block;
+    float: none;
+    position:inherit;
+    padding: 0px;
+    margin: 0px;
+    overflow: inherit;
+    text-align: inherit;
+}
+
+
+/******************************* TABLE GRID *******************************/
+table.DNNInfo_Table_Grid{
+	width:100%;
+}
+
+table.DNNInfo_Table_Grid td{
+	padding:3px;
+	vertical-align:top;
+}
+
+
+.DNNInfo_GridRow_Alternate{
+	background-color:#ece7e7;
+}
+
+table.DNNInfo_Table_Grid tr.DNNInfo_HeaderGrid th{
+    background-color:#515159;
+    color:#ffffff;
+    text-align:center;
+    font-weight:bold;
+    padding:5px;
+}
+
+.DNNInfo_Paging{
+    line-height:20px;
+    height:20px;
+    padding:0px 10px;
+    background-color:#b4b4b8;
+}
+
+.DNNInfo_Paging a.linkSelected{
+    font-weight:bold;
+    text-decoration:underline;
+    color:#4646dd;
+}
+
+.DNNInfo_Required{
+    color:Red;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.DNNInfo_Message{
+    color:Red;
+    font-weight:bold;
+}
+
+.GridUpdateButton, .GridCancelButton, .GridEditButton, .GridDeleteButton{
+	display:block;
+	width:20px;
+	height:20px;
+	text-indent:-999em;
+	background:url(images/save.gif) no-repeat;
+}
+
+.GridCancelButton{background:url(images/cancel.gif) no-repeat;}
+.GridEditButton{background:url(images/edit.gif) no-repeat;}
+.GridDeleteButton{background:url(images/delete.gif) no-repeat;}
+
+/*** CONTROL PANEL MENU ***/
+.DNNInfo_ImageGallery_Menu
+{
+	padding-bottom:20px;
+	display:inline-table;
+}
+
+ul.DNNInfo_ControlPanelMenu, ul.DNNInfo_ControlPanelMenu li
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+ul.DNNInfo_ControlPanelMenu li
+{
+	float:left;
+	margin-right:7px;
+}
+
+
+ul.DNNInfo_ControlPanelMenu li a{
+	width:75px;
+	height:75px;
+	text-decoration:none;
+	vertical-align:middle;
+	border:solid 1px #e6e2e2;
+	color:#666666;
+	display:block;
+	text-align:center;
+	padding:5px;
+	font-size:10px;
+}
+
+ul.DNNInfo_ControlPanelMenu li a:hover, ul.DNNInfo_ControlPanelMenu li.DNNInfo_Selected a{
+	border-bottom:solid 1px #bab0b0;
+	border-right:solid 1px #bab0b0;
+	background-color:#d9dbde;
+	color:#366aaa;
+	font-size:10px;
+}
+
+ul.DNNInfo_ControlPanelMenu li div
+{
+	padding-top:5px;
+}
+
+.DNNInfo_ClearBoth
+{
+	clear:both;
+}
+/********************************* END CONTROLPANEL MENU ***********************************/
+
+/********************************* DNNInfo Box ***********************************/
+.DNNInfo_Box{
+	border:solid 1px #c6c3c3;
+	width:100%;
+	margin-bottom:12px;
+}
+
+.DNNInfo_BoxHeader{
+	border-bottom:solid 1px #c6c3c3;
+	padding:7px 10px;
+	font-weight:bold;
+	font-size:13px;
+	background-color:#e7e5e5;
+	color:#817e7e;
+}
+
+.DNNInfo_BoxInside{
+	padding:10px;
+}
+
+.DNNInfo_BoxInside ol{
+	margin:0;
+	padding:0;
+	padding-left:20px;
+	margin-left:10px;
+}
+
+/********************************* END DNNInfo Box ***********************************/
+
+
+/**************************** MISC ***********************************/
+.DNNINfo_ImageGallery_Container{
+    position:relative;
+}
+
+.DNNInfo_AjaxLoading{
+	width:16px;
+	height:11px;
+	background:url(images/ajaxbar.gif) no-repeat;
+	position:absolute;
+	bottom:-10px;
+	left:2px;
+}
+
+.DNNInfo_ImageGallery_ImageLoaderInfo{
+	width:100%;
+	background:url(images/infobg.png) repeat;
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:inline-table;
+    width:100%;
+}
+
+
+.DNNInfo_Required{
+	color:red;
+	font-weight:bold;
+}
+
+.DNNInfo_Label{
+	font-weight:bold;
+}
+
+table.DNNInfo_Table{
+	width:100%;
+}
+
+table.DNNInfo_Table td, table.DNNInfo_TableNormal td{
+	padding:5px 10px;
+	vertical-align:top;
+}
+
+table.DNNInfo_Table td.DNNInfo_Label, table.DNNInfo_TableNormal td.DNNInfo_Label{
+	width:150px;
+	background-color:#e1dddd;
+	white-space:nowrap;
+}
+
+.DNNInfo_LabelNormal{
+	width:150px;
+	white-space:nowrap;
+}
+
+.DNNInfo_Bold, a.DNNInfo_Bold{
+	font-weight:bold;
+}
+
+.DNNInfo_NotifySign, .DNNInfo_WarningSign, .DNNInfo_ErrorSign{
+	font-size:14px;
+	display:block;
+	padding:5px 40px;
+	line-height:22px;
+	background:url(images/notifysign.png) 5px 5px no-repeat;
+	background-color:#f4fbbb;
+	border:solid 1px #c6c3c3;
+	font-weight:bold;
+	font-size:13px;
+	margin:10px 0;
+}
+
+.DNNInfo_WarningSign{
+	background:url(images/warning.png) 5px 5px no-repeat;
+	background-color:#e8ec7a;
+}
+
+.DNNInfo_ErrorSign{
+	background:url(images/error.png) 5px 5px no-repeat;
+	background-color:#e8ec7a;
+}
+
+.DNNInfo_Button{
+	border:none;
+	border:solid 1px #c9c8c8;
+	color:#3a3838;
+	padding:3px 5px;
+	cursor:pointer;
+	font-size:11px;
+	margin-right:5px;
+	font-weight:bold;
+}
+
+.DNNInfo_Note
+{
+    background-color:#f0fac2;
+    font-size:11px;
+    font-weight:bold;
+    color:#4b4c49;
+    padding:10px;
+}
+/************************************ END MISC **************************************/

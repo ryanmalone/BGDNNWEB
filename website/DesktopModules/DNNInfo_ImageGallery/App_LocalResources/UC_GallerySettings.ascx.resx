@@ -1,0 +1,1185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnUpdate.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="lblAlbumLargeSize.Text" xml:space="preserve">
+    <value>Album Large Size</value>
+  </data>
+  <data name="lblAlbumThumbSize.Text" xml:space="preserve">
+    <value>Album thumbnail Size</value>
+  </data>
+  <data name="lblDateFormat.Text" xml:space="preserve">
+    <value>Date format</value>
+  </data>
+  <data name="lblImageLargeSize.Text" xml:space="preserve">
+    <value>Image Large Size</value>
+  </data>
+  <data name="lblImageThumbSize.Text" xml:space="preserve">
+    <value>Image thumbnail Size</value>
+  </data>
+  <data name="lblAlbumLargeSize.Help" xml:space="preserve">
+    <value>ex: 250 (please enter numbers only, minimum value will be adjusted to 250). Recommended size is 250 based on default template</value>
+  </data>
+  <data name="lblImageThumbSize.Help" xml:space="preserve">
+    <value>ex: 100 (please enter numbers only, minimum value will be adjusted to 100). Recommended size is 100 based on default template</value>
+  </data>
+  <data name="lblImageLargeSize.Help" xml:space="preserve">
+    <value>ex: 500 (please enter numbers only). Recommended size is 700.</value>
+  </data>
+  <data name="lblAlbumThumbSize.Help" xml:space="preserve">
+    <value>ex: 100 (please enter numbers only, minimum value will be adjusted to 100). Recommended size is 100 based on default template</value>
+  </data>
+  <data name="regexAlbumLargeSize.Text" xml:space="preserve">
+    <value>Invalid album thumb height</value>
+  </data>
+  <data name="regexAlbumThumbSize.Text" xml:space="preserve">
+    <value>Invalid album thumbnail Size</value>
+  </data>
+  <data name="regexImageLargeSize.Text" xml:space="preserve">
+    <value>Invalid image thumb height</value>
+  </data>
+  <data name="regexImageThumbSize.Text" xml:space="preserve">
+    <value>Invalid image thumbnail Size</value>
+  </data>
+  <data name="reqAlbumLargeSize.Text" xml:space="preserve">
+    <value>Album thumbnail height is required</value>
+  </data>
+  <data name="reqAlbumThumbSize.Text" xml:space="preserve">
+    <value>Album thumbnail Size is required</value>
+  </data>
+  <data name="reqImageTemplate.Text" xml:space="preserve">
+    <value>Image template is required</value>
+  </data>
+  <data name="reqImageLargeSize.Text" xml:space="preserve">
+    <value>Image thumb height is required</value>
+  </data>
+  <data name="reqImageThumbSize.Text" xml:space="preserve">
+    <value>Image thumbnail Size is required</value>
+  </data>
+  <data name="reqImageThumbnailList.Text" xml:space="preserve">
+    <value>ImageThumbnailList template is required</value>
+  </data>
+  <data name="reqLightBoxTemplate.Text" xml:space="preserve">
+    <value>Lightbox template is required</value>
+  </data>
+  <data name="btnLoadDefaultSettings.Text" xml:space="preserve">
+    <value>Load default settings</value>
+  </data>
+  <data name="lblAlbumSortField.Text" xml:space="preserve">
+    <value>Album sort field</value>
+  </data>
+  <data name="lblAlbumSortOrder.Text" xml:space="preserve">
+    <value>Album sort order</value>
+  </data>
+  <data name="lblImageSortField.Text" xml:space="preserve">
+    <value>Image sort field</value>
+  </data>
+  <data name="lblImageSortOrder.Text" xml:space="preserve">
+    <value>Image sort order</value>
+  </data>
+  <data name="lblNoOfAlbumsPerPage.Text" xml:space="preserve">
+    <value>No of albums per page</value>
+  </data>
+  <data name="lblNoOfImagesPerPage.Text" xml:space="preserve">
+    <value>No of images per page</value>
+  </data>
+  <data name="regexNoOfAlbumsPerPage.Text" xml:space="preserve">
+    <value>Please enter numbers only for No of Albums Per Page field</value>
+  </data>
+  <data name="regexNoOfImagesPerPage.Text" xml:space="preserve">
+    <value>Please enter numbers only for No of Images Per Page field</value>
+  </data>
+  <data name="lblAlbumSortField.Help" xml:space="preserve">
+    <value>Album Sort field</value>
+  </data>
+  <data name="lblAlbumSortOrder.Help" xml:space="preserve">
+    <value>Album Sort Order</value>
+  </data>
+  <data name="lblDateFormat.Help" xml:space="preserve">
+    <value>Date format</value>
+  </data>
+  <data name="lblImageSortField.Help" xml:space="preserve">
+    <value>Image Sort field</value>
+  </data>
+  <data name="lblImageSortOrder.Help" xml:space="preserve">
+    <value>Image Sort Order</value>
+  </data>
+  <data name="lblNoOfAlbumsPerPage.Help" xml:space="preserve">
+    <value>No of album per page ex: 10</value>
+  </data>
+  <data name="lblNoOfImagesPerPage.Help" xml:space="preserve">
+    <value>No of images per page ex:10</value>
+  </data>
+  <data name="lblNoOfPagingAlbums.Help" xml:space="preserve">
+    <value>No of paging links for albums ex: 10</value>
+  </data>
+  <data name="lblNoOfPagingAlbums.Text" xml:space="preserve">
+    <value>No of paging links for albums</value>
+  </data>
+  <data name="lblNoOfPagingImages.Help" xml:space="preserve">
+    <value>No of paging links for images ex: 10</value>
+  </data>
+  <data name="lblNoOfPagingImages.Text" xml:space="preserve">
+    <value>No of paging links for images</value>
+  </data>
+  <data name="regexNoOfPagingAlbums.Text" xml:space="preserve">
+    <value>Invalid paging links value</value>
+  </data>
+  <data name="regexNoOfPagingImages.Text" xml:space="preserve">
+    <value>Invalid paging links value</value>
+  </data>
+  <data name="reqNoOfPagingAlbums.Text" xml:space="preserve">
+    <value>No of paging links for albums is required</value>
+  </data>
+  <data name="reqNoOfPagingImages.Text" xml:space="preserve">
+    <value>No of paging links for images is required</value>
+  </data>
+  <data name="litGallerySettings.Text" xml:space="preserve">
+    <value>Gallery Settings</value>
+  </data>
+  <data name="lblGalleryType.Help" xml:space="preserve">
+    <value>Gallery Type</value>
+  </data>
+  <data name="lblGalleryType.Text" xml:space="preserve">
+    <value>Gallery Type</value>
+  </data>
+  <data name="DNNInfoGallery.Text" xml:space="preserve">
+    <value>DNNInfo Gallery</value>
+  </data>
+  <data name="LightBoxGallery.Text" xml:space="preserve">
+    <value>LightBox Gallery</value>
+  </data>
+  <data name="SettingsUpdated.Text" xml:space="preserve">
+    <value>Image Gallery Settings have been updated</value>
+  </data>
+  <data name="PrettyPhotoGallery.Text" xml:space="preserve">
+    <value>PrettyPhoto Gallery</value>
+  </data>
+  <data name="Dark_Rounded.Text" xml:space="preserve">
+    <value>Dark Rounded</value>
+  </data>
+  <data name="Dark_Square.Text" xml:space="preserve">
+    <value>Dark Square</value>
+  </data>
+  <data name="Facebook.Text" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="lblPrettyPhotoTheme.Help" xml:space="preserve">
+    <value>This theme is only used for PrettyPhoto Gallery only</value>
+  </data>
+  <data name="lblPrettyPhotoTheme.Text" xml:space="preserve">
+    <value>PrettyPhoto Theme</value>
+  </data>
+  <data name="Light_Rounded.Text" xml:space="preserve">
+    <value>Light Rounded</value>
+  </data>
+  <data name="Light_Square.Text" xml:space="preserve">
+    <value>Light Square</value>
+  </data>
+  <data name="lblLightBoxAlbumTemplate.Help" xml:space="preserve">
+    <value>This will be the album template</value>
+  </data>
+  <data name="lblLightBoxAlbumTemplate.Text" xml:space="preserve">
+    <value>Album Template</value>
+  </data>
+  <data name="lblLightBoxPagingTemplate.Help" xml:space="preserve">
+    <value>This will be the url paging template contains links to each new page</value>
+  </data>
+  <data name="lblLightBoxPagingTemplate.Text" xml:space="preserve">
+    <value>Paging Template</value>
+  </data>
+  <data name="lblLightBoxWrapperTemplate.Help" xml:space="preserve">
+    <value>This will be the gallery template that wraps the image galleries</value>
+  </data>
+  <data name="lblLightBoxWrapperTemplate.Text" xml:space="preserve">
+    <value>Gallery Template</value>
+  </data>
+  <data name="lblPrettyPhotoPagingTemplate.Help" xml:space="preserve">
+    <value>This will be the url paging template contains links to each new page</value>
+  </data>
+  <data name="lblPrettyPhotoPagingTemplate.Text" xml:space="preserve">
+    <value>Paging Template</value>
+  </data>
+  <data name="lblPrettyPhotoWrapperAlbumTemplate.Help" xml:space="preserve">
+    <value>This will be the album template</value>
+  </data>
+  <data name="lblPrettyPhotoWrapperAlbumTemplate.Text" xml:space="preserve">
+    <value>Album template</value>
+  </data>
+  <data name="lblPrettyPhotoWrapperTemplate.Help" xml:space="preserve">
+    <value>This will be the gallery template that wraps the image galleries</value>
+  </data>
+  <data name="lblPrettyPhotoWrapperTemplate.Text" xml:space="preserve">
+    <value>Gallery Template</value>
+  </data>
+  <data name="LightBoxSettings.Text" xml:space="preserve">
+    <value>LightBox Settings</value>
+  </data>
+  <data name="PrettyPhotoSettings.Text" xml:space="preserve">
+    <value>PrettyPhoto Settings</value>
+  </data>
+  <data name="DNNInfoGallerySettings.Text" xml:space="preserve">
+    <value>DNNInfo Gallery Settings</value>
+  </data>
+  <data name="lblDNNInfoAlbumPagingTemplate.Help" xml:space="preserve">
+    <value>This will be the album paging template</value>
+  </data>
+  <data name="lblDNNInfoAlbumPagingTemplate.Text" xml:space="preserve">
+    <value>Album Paging Template</value>
+  </data>
+  <data name="lblDNNInfoApplyWidthAndHeightToImagePanel.Help" xml:space="preserve">
+    <value>This will place a style width and height to the image panel template. Recommended to tick this, unless you want to manually place the width and height into css file.</value>
+  </data>
+  <data name="lblDNNInfoApplyWidthAndHeightToImagePanel.Text" xml:space="preserve">
+    <value>Apply Image width and height</value>
+  </data>
+  <data name="lblDNNInfoGalleryImageTemplate.Help" xml:space="preserve">
+    <value>This will be the image template</value>
+  </data>
+  <data name="lblDNNInfoGalleryImageTemplate.Text" xml:space="preserve">
+    <value>Image Template</value>
+  </data>
+  <data name="lblDNNInfoGalleryTemplate.Help" xml:space="preserve">
+    <value>This will be the gallery template that wraps the image galleries</value>
+  </data>
+  <data name="lblDNNInfoGalleryTemplate.Text" xml:space="preserve">
+    <value>DNNInfo Gallery Template</value>
+  </data>
+  <data name="lblDNNInfoImagePagingTemplate.Help" xml:space="preserve">
+    <value>This will be the image paging template</value>
+  </data>
+  <data name="lblDNNInfoImagePagingTemplate.Text" xml:space="preserve">
+    <value>Image Paging Template</value>
+  </data>
+  <data name="lblDNNInfoImagePanelHeight.Help" xml:space="preserve">
+    <value>This will be the image panel info height. The image panel is the one that shows up when you click the image thumbnail</value>
+  </data>
+  <data name="lblDNNInfoImagePanelHeight.Text" xml:space="preserve">
+    <value>Image Panel Height</value>
+  </data>
+  <data name="lblDNNInfoImagePanelWidth.Help" xml:space="preserve">
+    <value>This will be the image panel info width. The image panel is the one that shows up when you click the image thumbnail</value>
+  </data>
+  <data name="lblDNNInfoImagePanelWidth.Text" xml:space="preserve">
+    <value>Image Panel Width</value>
+  </data>
+  <data name="AdGallery.Text" xml:space="preserve">
+    <value>AdGallery</value>
+  </data>
+  <data name="AdGalleryFade.Text" xml:space="preserve">
+    <value>Fade</value>
+  </data>
+  <data name="AdGalleryNone.Text" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="AdGalleryResize.Text" xml:space="preserve">
+    <value>Resize</value>
+  </data>
+  <data name="AdGallerySettings.Text" xml:space="preserve">
+    <value>AdGallery Settings</value>
+  </data>
+  <data name="AdGallerySlideHorizontal.Text" xml:space="preserve">
+    <value>Slide Horizontal</value>
+  </data>
+  <data name="AdGallerySlideVertical.Text" xml:space="preserve">
+    <value>Slide Vertical</value>
+  </data>
+  <data name="AlbumAsc.Text" xml:space="preserve">
+    <value>Asc</value>
+  </data>
+  <data name="AlbumCreatedDate.Text" xml:space="preserve">
+    <value>AlbumCreatedDate</value>
+  </data>
+  <data name="AlbumDesc.Text" xml:space="preserve">
+    <value>Desc</value>
+  </data>
+  <data name="AlbumName.Text" xml:space="preserve">
+    <value>AlbumName</value>
+  </data>
+  <data name="AlbumSortIndex.Text" xml:space="preserve">
+    <value>AlbumSortIndex</value>
+  </data>
+  <data name="AlbumUpdatedDate.Text" xml:space="preserve">
+    <value>AlbumUpdatedDate</value>
+  </data>
+  <data name="ControlTitle_settings.Text" xml:space="preserve">
+    <value>Control Panel</value>
+  </data>
+  <data name="ImageAsc.Text" xml:space="preserve">
+    <value>Asc</value>
+  </data>
+  <data name="ImageCreatedDate.Text" xml:space="preserve">
+    <value>ImageCreatedDate</value>
+  </data>
+  <data name="ImageDesc.Text" xml:space="preserve">
+    <value>Desc</value>
+  </data>
+  <data name="ImageSortIndex.Text" xml:space="preserve">
+    <value>ImageSortIndex</value>
+  </data>
+  <data name="ImageTitle.Text" xml:space="preserve">
+    <value>ImageTitle</value>
+  </data>
+  <data name="ImageUpdatedDate.Text" xml:space="preserve">
+    <value>ImageUpdatedDate</value>
+  </data>
+  <data name="lblAdGalleryAlbumTemplate.Help" xml:space="preserve">
+    <value>This will be the AdGallery album template</value>
+  </data>
+  <data name="lblAdGalleryAlbumTemplate.Text" xml:space="preserve">
+    <value>AdGallery Album Template</value>
+  </data>
+  <data name="lblAdGalleryPagingTemplate.Help" xml:space="preserve">
+    <value>This will be the AdGallery Album Paging template</value>
+  </data>
+  <data name="lblAdGalleryPagingTemplate.Text" xml:space="preserve">
+    <value>Album Paging template</value>
+  </data>
+  <data name="lblAdGalleryPanelBackgroundColor.Help" xml:space="preserve">
+    <value>This will be the image panel background color</value>
+  </data>
+  <data name="lblAdGalleryPanelBackgroundColor.Text" xml:space="preserve">
+    <value>Image Panel Background color</value>
+  </data>
+  <data name="lblAdGalleryPanelHeight.Help" xml:space="preserve">
+    <value>This will be the image panel height (showing the larger image)</value>
+  </data>
+  <data name="lblAdGalleryPanelHeight.Text" xml:space="preserve">
+    <value>Image Panel Height</value>
+  </data>
+  <data name="lblAdGalleryPanelPadding.Help" xml:space="preserve">
+    <value>This will be the image panel padding</value>
+  </data>
+  <data name="lblAdGalleryPanelPadding.Text" xml:space="preserve">
+    <value>Image Panel Padding</value>
+  </data>
+  <data name="lblAdGalleryPanelWidth.Help" xml:space="preserve">
+    <value>This will be the image panel width (showing the larger image)</value>
+  </data>
+  <data name="lblAdGalleryPanelWidth.Text" xml:space="preserve">
+    <value>Image Panel Width</value>
+  </data>
+  <data name="lblAdGalleryShowAllImages.Help" xml:space="preserve">
+    <value>This will shows all images (albums details will be skipped)</value>
+  </data>
+  <data name="lblAdGalleryShowAllImages.Text" xml:space="preserve">
+    <value>Show all images </value>
+  </data>
+  <data name="lblAdGallerySlideEffect.Help" xml:space="preserve">
+    <value>Please select one of the slide effect available. This effect type will be used for the image transition when you click the thumbnail images</value>
+  </data>
+  <data name="lblAdGallerySlideEffect.Text" xml:space="preserve">
+    <value>Slide Effect</value>
+  </data>
+  <data name="lblAdGalleryWrapperTemplate.Help" xml:space="preserve">
+    <value>This will be the AdGallery template</value>
+  </data>
+  <data name="lblAdGalleryWrapperTemplate.Text" xml:space="preserve">
+    <value>AdGallery Template</value>
+  </data>
+  <data name="lblDNNInfoShowAllImages.Help" xml:space="preserve">
+    <value>This will shows all images (albums details will be skipped)</value>
+  </data>
+  <data name="lblDNNInfoShowAllImages.Text" xml:space="preserve">
+    <value>Show all images </value>
+  </data>
+  <data name="lblLightBoxShowAllImages.Help" xml:space="preserve">
+    <value>This will shows all images (albums details will be skipped)</value>
+  </data>
+  <data name="lblLightBoxShowAllImages.Text" xml:space="preserve">
+    <value>Show all images </value>
+  </data>
+  <data name="lblPrettyPhotoShowAllImages.Help" xml:space="preserve">
+    <value>This will shows all images (albums details will be skipped)</value>
+  </data>
+  <data name="lblPrettyPhotoShowAllImages.Text" xml:space="preserve">
+    <value>Show all images </value>
+  </data>
+  <data name="LoadSettingConfirm.Text" xml:space="preserve">
+    <value>This will load default gallery settings. Are you sure you want to proceed?</value>
+  </data>
+  <data name="lblEasySliderGalleryAlbum.Help" xml:space="preserve">
+    <value>Select the images from album you want to display. If you want to show all images from all albums, do not choose specific album</value>
+  </data>
+  <data name="lblEasySliderGalleryAlbum.Text" xml:space="preserve">
+    <value>Show Images By Album</value>
+  </data>
+  <data name="lblEasySliderGalleryAutoPlay.Help" xml:space="preserve">
+    <value>If you tick this option, it will automatically play the image gallery sliding</value>
+  </data>
+  <data name="lblEasySliderGalleryAutoPlay.Text" xml:space="preserve">
+    <value>Auto Play</value>
+  </data>
+  <data name="lblEasySliderGalleryAutoRepeat.Help" xml:space="preserve">
+    <value>Tick this will repeat the sliding of image gallery</value>
+  </data>
+  <data name="lblEasySliderGalleryAutoRepeat.Text" xml:space="preserve">
+    <value>Auto Repeat</value>
+  </data>
+  <data name="lblEasySliderGalleryControlType.Help" xml:space="preserve">
+    <value>This will be the sliding gallery control type</value>
+  </data>
+  <data name="lblEasySliderGalleryControlType.Text" xml:space="preserve">
+    <value>Control Type</value>
+  </data>
+  <data name="lblEasySliderGalleryHeight.Help" xml:space="preserve">
+    <value>This will be the gallery height</value>
+  </data>
+  <data name="lblEasySliderGalleryHeight.Text" xml:space="preserve">
+    <value>Gallery Height</value>
+  </data>
+  <data name="lblEasySliderGalleryPauseTime.Help" xml:space="preserve">
+    <value>This will be the pause time for the image before sliding to the next image.  Ex if you want to set 2 seconds the value will be 2000</value>
+  </data>
+  <data name="lblEasySliderGalleryPauseTime.Text" xml:space="preserve">
+    <value>Pause Time</value>
+  </data>
+  <data name="lblEasySliderGallerySpeedTransition.Help" xml:space="preserve">
+    <value>This will be the speed transition in millisecond values. Ex if you want to set 2 seconds the value will be 2000</value>
+  </data>
+  <data name="lblEasySliderGallerySpeedTransition.Text" xml:space="preserve">
+    <value>Speed Transition</value>
+  </data>
+  <data name="lblEasySliderGalleryStylePrevNextButton.Help" xml:space="preserve">
+    <value>This will be the style for prev next button</value>
+  </data>
+  <data name="lblEasySliderGalleryStylePrevNextButton.Text" xml:space="preserve">
+    <value>Style PrevNext Button</value>
+  </data>
+  <data name="lblEasySliderGalleryStylePrevNextButtonLink.Help" xml:space="preserve">
+    <value>This will be the style for prev next button href link</value>
+  </data>
+  <data name="lblEasySliderGalleryStylePrevNextButtonLink.Text" xml:space="preserve">
+    <value>Style PrevNext Button Href Link</value>
+  </data>
+  <data name="lblEasySliderGalleryWidth.Help" xml:space="preserve">
+    <value>This will be the gallery width</value>
+  </data>
+  <data name="lblEasySliderGalleryWidth.Text" xml:space="preserve">
+    <value>Gallery Width</value>
+  </data>
+  <data name="NoButtons.Text" xml:space="preserve">
+    <value>No Buttons</value>
+  </data>
+  <data name="EasySliderGallery.Text" xml:space="preserve">
+    <value>EasySlider Gallery</value>
+  </data>
+  <data name="UseNumericButtons.Text" xml:space="preserve">
+    <value>Use numeric buttons</value>
+  </data>
+  <data name="UsePrevNextButtons.Text" xml:space="preserve">
+    <value>Use Prev Next buttons</value>
+  </data>
+  <data name="EasySliderGallerySettings.Text" xml:space="preserve">
+    <value>EasySlider Gallery Settings</value>
+  </data>
+  <data name="SelectAlbum.Help" xml:space="preserve">
+    <value>If you do not select specific album, all images will be displayed</value>
+  </data>
+  <data name="SelectAlbum.Text" xml:space="preserve">
+    <value>Select album</value>
+  </data>
+  <data name="UseNumeric.Text" xml:space="preserve">
+    <value>Use Numeric buttons</value>
+  </data>
+  <data name="CloudCarousel.Text" xml:space="preserve">
+    <value>CloudCarousel</value>
+  </data>
+  <data name="CloudCarouselLeft.Text" xml:space="preserve">
+    <value>left</value>
+  </data>
+  <data name="CloudCarouselNo.Text" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="CloudCarouselRight.Text" xml:space="preserve">
+    <value>right</value>
+  </data>
+  <data name="CloudCarouselSettings.Text" xml:space="preserve">
+    <value>CloudCarousel Settings</value>
+  </data>
+  <data name="lblCloudCarouselAlbum.Help" xml:space="preserve">
+    <value>Select the images from album you want to display. If you want to show all images from all albums, do not choose specific album</value>
+  </data>
+  <data name="lblCloudCarouselAlbum.Text" xml:space="preserve">
+    <value>Show Images By Album</value>
+  </data>
+  <data name="lblCloudCarouselAutoRotate.Help" xml:space="preserve">
+    <value>Turn on auto-rotation of the carousel using either 'left' or 'right' as the value. The carousel will rotate between items automatically. The auto-rotation stops when the user hovers over the carousel area, and starts again when the mouse is moved off.</value>
+  </data>
+  <data name="lblCloudCarouselAutoRotate.Text" xml:space="preserve">
+    <value>Auto Rotate</value>
+  </data>
+  <data name="lblCloudCarouselAutoRotateDelay.Help" xml:space="preserve">
+    <value>Delay in milliseconds between each rotation in auto-rotate mode. A minimum value of 1000 (i.e. one second) is recommended.</value>
+  </data>
+  <data name="lblCloudCarouselAutoRotateDelay.Text" xml:space="preserve">
+    <value>Auto Rotate Delay</value>
+  </data>
+  <data name="lblCloudCarouselBringToFront.Help" xml:space="preserve">
+    <value>If ticked, moves the item clicked on to the front</value>
+  </data>
+  <data name="lblCloudCarouselBringToFront.Text" xml:space="preserve">
+    <value>Bring to front</value>
+  </data>
+  <data name="lblCloudCarouselCanvasBackgroundImage.Help" xml:space="preserve">
+    <value>This will be the canvas background</value>
+  </data>
+  <data name="lblCloudCarouselCanvasBackgroundImage.Text" xml:space="preserve">
+    <value>Canvas Background</value>
+  </data>
+  <data name="lblCloudCarouselCanvasHeight.Help" xml:space="preserve">
+    <value>This will be the canvas height</value>
+  </data>
+  <data name="lblCloudCarouselCanvasHeight.Text" xml:space="preserve">
+    <value>Canvas Height</value>
+  </data>
+  <data name="lblCloudCarouselCanvasWidth.Help" xml:space="preserve">
+    <value>This will be the canvas width</value>
+  </data>
+  <data name="lblCloudCarouselCanvasWidth.Text" xml:space="preserve">
+    <value>Canvas Width</value>
+  </data>
+  <data name="lblCloudCarouselFPS.Help" xml:space="preserve">
+    <value>This is the approximate frame rate of the carousel in frames per second. The higher the number, the faster and smoother the carousel movement will appear. However, frame rates that are too high can make the user's browser feel sluggish, especially if they have an under powered machine. The default setting of 30 is a good tradeoff between speed and performance.</value>
+  </data>
+  <data name="lblCloudCarouselFPS.Text" xml:space="preserve">
+    <value>Frame Per Second</value>
+  </data>
+  <data name="lblCloudCarouselMouseWheel.Help" xml:space="preserve">
+    <value>If ticked, this will enable mouse wheel support for the carousel</value>
+  </data>
+  <data name="lblCloudCarouselMouseWheel.Text" xml:space="preserve">
+    <value>Mouse Wheel</value>
+  </data>
+  <data name="lblCloudCarouselReflectionHeight.Help" xml:space="preserve">
+    <value>Height of the auto-reflection in pixels, assuming applied to the item at the front. The reflection will scale automatically. A value of 0 means that no auto-reflection will appear.</value>
+  </data>
+  <data name="lblCloudCarouselReflectionHeight.Text" xml:space="preserve">
+    <value>Reflection Height</value>
+  </data>
+  <data name="lblCloudCarouselReflectionOpacity.Help" xml:space="preserve">
+    <value>Specifies how transparent the reflection is. 0 is invisible, 1 is totally opaque.</value>
+  </data>
+  <data name="lblCloudCarouselReflectionOpacity.Text" xml:space="preserve">
+    <value>Reflection Opacity</value>
+  </data>
+  <data name="lblCloudCarouselRotateSpeed.Help" xml:space="preserve">
+    <value>This value represents the speed at which the carousel rotates between items. Good values are around 0.1 ~ 0.3. A value of one will instantly move from one item to the next without any rotation animation. Values should be greater than zero and less than one.</value>
+  </data>
+  <data name="lblCloudCarouselRotateSpeed.Text" xml:space="preserve">
+    <value>Rotate Speed</value>
+  </data>
+  <data name="lblCloudCarouselShowImageDescription.Help" xml:space="preserve">
+    <value>This will show image description</value>
+  </data>
+  <data name="lblCloudCarouselShowImageDescription.Text" xml:space="preserve">
+    <value>Show Image Description</value>
+  </data>
+  <data name="lblCloudCarouselShowImageTitle.Help" xml:space="preserve">
+    <value>This will show the image title</value>
+  </data>
+  <data name="lblCloudCarouselShowImageTitle.Text" xml:space="preserve">
+    <value>Show Image Title</value>
+  </data>
+  <data name="lblCloudCarouselShowNavigationControls.Help" xml:space="preserve">
+    <value>Previous and Next navigation control will be displayed</value>
+  </data>
+  <data name="lblCloudCarouselShowNavigationControls.Text" xml:space="preserve">
+    <value>Show Navigation Controls</value>
+  </data>
+  <data name="lblCloudCarouselXPos.Help" xml:space="preserve">
+    <value>Horizontal position of the circle centre relative to the container. You would normally set this to half the width of the canvas width.</value>
+  </data>
+  <data name="lblCloudCarouselXPos.Text" xml:space="preserve">
+    <value>X Position</value>
+  </data>
+  <data name="lblCloudCarouselYPos.Help" xml:space="preserve">
+    <value>Vertical position of the circle centre relative to the container. You would normally set this to half the width of the canvas height.</value>
+  </data>
+  <data name="lblCloudCarouselYPos.Text" xml:space="preserve">
+    <value>Y Position</value>
+  </data>
+  <data name="litCloudCarouselBackgroundNote.Text" xml:space="preserve">
+    <value>You can specify the background of the canvas using color or image. For ex:&lt;br/&gt;Example for background image:&lt;br/&gt;background:url(/portals/0/images/canvasbg.jpg) no-repeat;&lt;br/&gt;&lt;br/&gt;background:url(http://www.mysite.com/portals/0/images/canvasbg.jpg) no-repeat;&lt;br/&gt;&lt;br/&gt;Example for background color:&lt;br/&gt;background:#000000;&lt;br/&gt;</value>
+  </data>
+  <data name="CloudCarouselExternalURL.Text" xml:space="preserve">
+    <value>External URL</value>
+  </data>
+  <data name="CloudCarouselLightBoxEffect.Text" xml:space="preserve">
+    <value>LightBox Effect</value>
+  </data>
+  <data name="CloudCarouselSlimBoxEffect.Text" xml:space="preserve">
+    <value>SlimBox Effect</value>
+  </data>
+  <data name="lblCloudCarouselClickAction.Help" xml:space="preserve">
+    <value>You can choose the click image action, either open a new url or open a larger image</value>
+  </data>
+  <data name="lblCloudCarouselClickAction.Text" xml:space="preserve">
+    <value>Click Action</value>
+  </data>
+  <data name="lblCloudCarouseLightBoxEffect.Text" xml:space="preserve">
+    <value>LightBox Effect</value>
+  </data>
+  <data name="CloudCarouselNone.Text" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="lblCloudCarouselPrettyPhotoEffect.Text" xml:space="preserve">
+    <value>PrettyPhoto Effect</value>
+  </data>
+  <data name="lblCloudCarouselPrettyPhotoTheme.Help" xml:space="preserve">
+    <value>Only use if you choose the Click Action that use Pretty Photo Effect</value>
+  </data>
+  <data name="lblCloudCarouselPrettyPhotoTheme.Text" xml:space="preserve">
+    <value>Pretty Photo Theme</value>
+  </data>
+  <data name="lblS3SliderGalleryAlbum.Help" xml:space="preserve">
+    <value>You can show images based on specific album or all albums (no need to select the album)</value>
+  </data>
+  <data name="lblS3SliderGalleryAlbum.Text" xml:space="preserve">
+    <value>Gallery Images</value>
+  </data>
+  <data name="lblS3SliderGalleryHeight.Help" xml:space="preserve">
+    <value>This will be the gallery height. Please make sure all images height are equal with gallery height</value>
+  </data>
+  <data name="lblS3SliderGalleryHeight.Text" xml:space="preserve">
+    <value>Gallery Height</value>
+  </data>
+  <data name="lblS3SliderGalleryTimeTransition.Help" xml:space="preserve">
+    <value>This will be the transition time to wait for the next image</value>
+  </data>
+  <data name="lblS3SliderGalleryTimeTransition.Text" xml:space="preserve">
+    <value>Speed Transition</value>
+  </data>
+  <data name="lblS3SliderGalleryWidth.Help" xml:space="preserve">
+    <value>This will be the gallery width. Please make sure all images width are equal with gallery width</value>
+  </data>
+  <data name="lblS3SliderGalleryWidth.Text" xml:space="preserve">
+    <value>Gallery Width</value>
+  </data>
+  <data name="S3SliderGallery.Text" xml:space="preserve">
+    <value>S3Slider Gallery</value>
+  </data>
+  <data name="S3SliderGallerySettings.Text" xml:space="preserve">
+    <value>S3Slider Gallery Settings</value>
+  </data>
+  <data name="lblFancyBoxPagingTemplate.Help" xml:space="preserve">
+    <value>This will be the paging template</value>
+  </data>
+  <data name="lblFancyBoxPagingTemplate.Text" xml:space="preserve">
+    <value>This will be the paging template</value>
+  </data>
+  <data name="lblFancyBoxShowAllImages.Help" xml:space="preserve">
+    <value>This will show all images (albums will be skipped)</value>
+  </data>
+  <data name="lblFancyBoxShowAllImages.Text" xml:space="preserve">
+    <value>Show all images</value>
+  </data>
+  <data name="lblFancyBoxWrapperAlbumTemplate.Help" xml:space="preserve">
+    <value>This will be the album template (located inside the gallery template)</value>
+  </data>
+  <data name="lblFancyBoxWrapperAlbumTemplate.Text" xml:space="preserve">
+    <value>Album Template</value>
+  </data>
+  <data name="lblFancyBoxWrapperTemplate.Help" xml:space="preserve">
+    <value>This will be the gallery template that holding/wrapping all the albums information</value>
+  </data>
+  <data name="lblFancyBoxWrapperTemplate.Text" xml:space="preserve">
+    <value>Gallery Template</value>
+  </data>
+  <data name="FancyBox.Text" xml:space="preserve">
+    <value>FancyBox</value>
+  </data>
+  <data name="FancyBoxSettings.Text" xml:space="preserve">
+    <value>FancyBox Gallery Settings</value>
+  </data>
+  <data name="FancyBoxTitlePositionInside.Text" xml:space="preserve">
+    <value>inside</value>
+  </data>
+  <data name="FancyBoxTitlePositionOutside.Text" xml:space="preserve">
+    <value>outside</value>
+  </data>
+  <data name="FancyBoxTitlePositionOver.Text" xml:space="preserve">
+    <value>over</value>
+  </data>
+  <data name="FancyBoxTransitionElastic.Text" xml:space="preserve">
+    <value>Elastic</value>
+  </data>
+  <data name="FancyBoxTransitionFade.Text" xml:space="preserve">
+    <value>Fade</value>
+  </data>
+  <data name="FancyBoxTransitionNone.Text" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="lblFancyBoxTitlePosition.Help" xml:space="preserve">
+    <value>This will be the title position</value>
+  </data>
+  <data name="lblFancyBoxTitlePosition.Text" xml:space="preserve">
+    <value>Title Position</value>
+  </data>
+  <data name="lblFancyBoxTransitionIn.Help" xml:space="preserve">
+    <value>This will be the transition in effect</value>
+  </data>
+  <data name="lblFancyBoxTransitionIn.Text" xml:space="preserve">
+    <value>Transition In effect</value>
+  </data>
+  <data name="lblFancyBoxTransitionOut.Help" xml:space="preserve">
+    <value>This will be the transition out effect</value>
+  </data>
+  <data name="lblFancyBoxTransitionOut.Text" xml:space="preserve">
+    <value>Transition Out effect</value>
+  </data>
+  <data name="btnClearCache.Text" xml:space="preserve">
+    <value>Clear Cache</value>
+  </data>
+  <data name="ClearCacheMessage.Text" xml:space="preserve">
+    <value>The cache for albums and images have been cleared</value>
+  </data>
+  <data name="lblHomeText.Help" xml:space="preserve">
+    <value>This will be the home text breadcrumb</value>
+  </data>
+  <data name="lblHomeText.Text" xml:space="preserve">
+    <value>Home Text</value>
+  </data>
+  <data name="fast.Text" xml:space="preserve">
+    <value>fast</value>
+  </data>
+  <data name="lblPrettyPhotoAnimationSpeed.Help" xml:space="preserve">
+    <value>This will be the animation speed for slide show</value>
+  </data>
+  <data name="lblPrettyPhotoAnimationSpeed.Text" xml:space="preserve">
+    <value>Animation Speed (Slideshow)</value>
+  </data>
+  <data name="lblPrettyPhotoSlideShowSpeed.Help" xml:space="preserve">
+    <value>This will be the slide show delay changes speed</value>
+  </data>
+  <data name="lblPrettyPhotoSlideShowSpeed.Text" xml:space="preserve">
+    <value>Slide Show Delay Changes Speed</value>
+  </data>
+  <data name="lblPrettyPhotoSmallGallery.Help" xml:space="preserve">
+    <value>Tick this will show small thumbnail gallery</value>
+  </data>
+  <data name="lblPrettyPhotoSmallGallery.Text" xml:space="preserve">
+    <value>Show Small Thumbnail Gallery</value>
+  </data>
+  <data name="normal.Text" xml:space="preserve">
+    <value>normal</value>
+  </data>
+  <data name="second.Text" xml:space="preserve">
+    <value>(second)</value>
+  </data>
+  <data name="slow.Text" xml:space="preserve">
+    <value>slow</value>
+  </data>
+  <data name="btnReturn.Text" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="lblAutoLoadImages.Help" xml:space="preserve">
+    <value>This will auto load images in hidden mode. User will be able to view images faster as they have been loaded. On the other hand, this will slow down the site as it needs to download all the images at once.</value>
+  </data>
+  <data name="lblAutoLoadImages.Text" xml:space="preserve">
+    <value>Auto Load Images (Hidden Mode)</value>
+  </data>
+  <data name="NivoSlider.Text" xml:space="preserve">
+    <value>Nivo Slider</value>
+  </data>
+  <data name="lblNivoSliderAlbum.Help" xml:space="preserve">
+    <value>This will be the album, leave unselected if you want to show all albums</value>
+  </data>
+  <data name="lblNivoSliderAlbum.Text" xml:space="preserve">
+    <value>Show Images by Album</value>
+  </data>
+  <data name="lblNivoSliderEffect.Help" xml:space="preserve">
+    <value>This will be the gallery effect</value>
+  </data>
+  <data name="lblNivoSliderEffect.Text" xml:space="preserve">
+    <value>Effect</value>
+  </data>
+  <data name="lblNivoSliderHeight.Help" xml:space="preserve">
+    <value>This will be the gallery height</value>
+  </data>
+  <data name="lblNivoSliderHeight.Text" xml:space="preserve">
+    <value>Gallery Height</value>
+  </data>
+  <data name="lblNivoSliderShowNextAndPrevNavigation.Help" xml:space="preserve">
+    <value>Tick this will enable for Prev and Next Navigation</value>
+  </data>
+  <data name="lblNivoSliderShowNextAndPrevNavigation.Text" xml:space="preserve">
+    <value>Show Prev and Next Navigation</value>
+  </data>
+  <data name="lblNivoSliderShowThumbnailNavigation.Help" xml:space="preserve">
+    <value>Tick this will show the thumbnail navigation</value>
+  </data>
+  <data name="lblNivoSliderShowThumbnailNavigation.Text" xml:space="preserve">
+    <value>Show Thumbnail Navigation</value>
+  </data>
+  <data name="lblNivoSliderTheme.Help" xml:space="preserve">
+    <value>This will be the gallery theme</value>
+  </data>
+  <data name="lblNivoSliderTheme.Text" xml:space="preserve">
+    <value>Gallery Theme</value>
+  </data>
+  <data name="lblNivoSliderThumbnailNavigationHeight.Help" xml:space="preserve">
+    <value>This will be the thumbnail navigation height</value>
+  </data>
+  <data name="lblNivoSliderThumbnailNavigationHeight.Text" xml:space="preserve">
+    <value>Thumbnail Navigation Height</value>
+  </data>
+  <data name="lblNivoSliderThumbnailNavigationWidth.Help" xml:space="preserve">
+    <value>This will be the thumbnail navigation width</value>
+  </data>
+  <data name="lblNivoSliderThumbnailNavigationWidth.Text" xml:space="preserve">
+    <value>Thumbnail Navigation Width</value>
+  </data>
+  <data name="lblNivoSliderTransitionPauseTime.Help" xml:space="preserve">
+    <value>This will be the transition pause time</value>
+  </data>
+  <data name="lblNivoSliderTransitionPauseTime.Text" xml:space="preserve">
+    <value>Transition Pause Time</value>
+  </data>
+  <data name="lblNivoSliderTransitionSpeed.Help" xml:space="preserve">
+    <value>This will be the transition speed</value>
+  </data>
+  <data name="lblNivoSliderTransitionSpeed.Text" xml:space="preserve">
+    <value>Transition Speed</value>
+  </data>
+  <data name="lblNivoSliderWidth.Help" xml:space="preserve">
+    <value>This will be the gallery width</value>
+  </data>
+  <data name="lblNivoSliderWidth.Text" xml:space="preserve">
+    <value>Gallery Width</value>
+  </data>
+  <data name="NivoSliderEffectboxRain.Text" xml:space="preserve">
+    <value>boxRain</value>
+  </data>
+  <data name="NivoSliderEffectboxRainGrow.Text" xml:space="preserve">
+    <value>boxRainGrow</value>
+  </data>
+  <data name="NivoSliderEffectboxRainGrowReverse.Text" xml:space="preserve">
+    <value>boxRainGrowReverse</value>
+  </data>
+  <data name="NivoSliderEffectboxRainReverse.Text" xml:space="preserve">
+    <value>boxRainReverse</value>
+  </data>
+  <data name="NivoSliderEffectboxRandom.Text" xml:space="preserve">
+    <value>boxRandom</value>
+  </data>
+  <data name="NivoSliderEffectfade.Text" xml:space="preserve">
+    <value>fade</value>
+  </data>
+  <data name="NivoSliderEffectfold.Text" xml:space="preserve">
+    <value>fold</value>
+  </data>
+  <data name="NivoSliderEffectRandom.Text" xml:space="preserve">
+    <value>random</value>
+  </data>
+  <data name="NivoSliderEffectsliceDown.Text" xml:space="preserve">
+    <value>sliceDown</value>
+  </data>
+  <data name="NivoSliderEffectsliceDownLeft.Text" xml:space="preserve">
+    <value>sliceDownLeft</value>
+  </data>
+  <data name="NivoSliderEffectsliceUpDown.Text" xml:space="preserve">
+    <value>sliceUpDown</value>
+  </data>
+  <data name="NivoSliderEffectsliceUpDownLeft.Text" xml:space="preserve">
+    <value>sliceUpDownLeft</value>
+  </data>
+  <data name="NivoSliderEffectsliceUpLeft.Text" xml:space="preserve">
+    <value>sliceUpLeft</value>
+  </data>
+  <data name="NivoSliderEffectslideInLeft.Text" xml:space="preserve">
+    <value>slideInLeft</value>
+  </data>
+  <data name="NivoSliderEffectslideInRight.Text" xml:space="preserve">
+    <value>slideInRight</value>
+  </data>
+  <data name="NivoSliderSettings.Text" xml:space="preserve">
+    <value>Nivo Slider Settings</value>
+  </data>
+  <data name="NivoSliderThemeDefault.Text" xml:space="preserve">
+    <value>default</value>
+  </data>
+  <data name="NivoSliderThemeOrman.Text" xml:space="preserve">
+    <value>orman</value>
+  </data>
+  <data name="NivoSliderThemePascal.Text" xml:space="preserve">
+    <value>pascal</value>
+  </data>
+  <data name="DiapoSettings.Text" xml:space="preserve">
+    <value>Diapo Settings</value>
+  </data>
+  <data name="lblDiapoAlbum.Help" xml:space="preserve">
+    <value>If you do not select specific album, all images will be displayed</value>
+  </data>
+  <data name="lblDiapoAlbum.Text" xml:space="preserve">
+    <value>Select Album</value>
+  </data>
+  <data name="lblDiapoEffect.Help" xml:space="preserve">
+    <value>This will be the slider effect</value>
+  </data>
+  <data name="lblDiapoEffect.Text" xml:space="preserve">
+    <value>Effect</value>
+  </data>
+  <data name="lblDiapoHeight.Help" xml:space="preserve">
+    <value>This will be the gallery height</value>
+  </data>
+  <data name="lblDiapoHeight.Text" xml:space="preserve">
+    <value>Gallery Height</value>
+  </data>
+  <data name="lblDiapoTransitionSpeed.Help" xml:space="preserve">
+    <value>This will be the transition speed</value>
+  </data>
+  <data name="lblDiapoTransitionSpeed.Text" xml:space="preserve">
+    <value>Transition Speed</value>
+  </data>
+  <data name="lblDiapoShowNextAndPrevNavigation.Help" xml:space="preserve">
+    <value>Tick this will show the Next and Prev Navigation</value>
+  </data>
+  <data name="lblDiapoShowNextAndPrevNavigation.Text" xml:space="preserve">
+    <value>Show Next and Prev Navigation</value>
+  </data>
+  <data name="lblDiapoWidth.Help" xml:space="preserve">
+    <value>This will be the gallery width</value>
+  </data>
+  <data name="lblDiapoWidth.Text" xml:space="preserve">
+    <value>Gallery Width</value>
+  </data>
+  <data name="Diapo.Text" xml:space="preserve">
+    <value>Diapo</value>
+  </data>
+  <data name="DiapoEffectblindCurtainBottomLeft.Text" xml:space="preserve">
+    <value>blindCurtainBottomLeft</value>
+  </data>
+  <data name="DiapoEffectblindCurtainBottomRight.Text" xml:space="preserve">
+    <value>blindCurtainBottomRight</value>
+  </data>
+  <data name="DiapoEffectblindCurtainSliceBottom.Text" xml:space="preserve">
+    <value>blindCurtainSliceBottom</value>
+  </data>
+  <data name="DiapoEffectblindCurtainSliceTop.Text" xml:space="preserve">
+    <value>blindCurtainSliceTop</value>
+  </data>
+  <data name="DiapoEffectblindCurtainTopLeft.Text" xml:space="preserve">
+    <value>blindCurtainTopLeft</value>
+  </data>
+  <data name="DiapoEffectblindCurtainTopRight.Text" xml:space="preserve">
+    <value>blindCurtainTopRight</value>
+  </data>
+  <data name="DiapoEffectbottomLeftTopRight.Text" xml:space="preserve">
+    <value>bottomLeftTopRight</value>
+  </data>
+  <data name="DiapoEffectbottomRightTopLeft.Text" xml:space="preserve">
+    <value>bottomRightTopLeft</value>
+  </data>
+  <data name="DiapoEffectcurtainBottomLeft.Text" xml:space="preserve">
+    <value>curtainBottomLeft</value>
+  </data>
+  <data name="DiapoEffectcurtainBottomRight.Text" xml:space="preserve">
+    <value>curtainBottomRight</value>
+  </data>
+  <data name="DiapoEffectcurtainSliceLeft.Text" xml:space="preserve">
+    <value>curtainSliceLeft</value>
+  </data>
+  <data name="DiapoEffectcurtainSliceRight.Text" xml:space="preserve">
+    <value>curtainSliceRight</value>
+  </data>
+  <data name="DiapoEffectcurtainTopLeft.Text" xml:space="preserve">
+    <value>curtainTopLeft</value>
+  </data>
+  <data name="DiapoEffectcurtainTopRight.Text" xml:space="preserve">
+    <value>curtainTopRight</value>
+  </data>
+  <data name="DiapoEffectmosaic.Text" xml:space="preserve">
+    <value>mosaic</value>
+  </data>
+  <data name="DiapoEffectmosaicRandom.Text" xml:space="preserve">
+    <value>mosaicRandom</value>
+  </data>
+  <data name="DiapoEffectmosaicReverse.Text" xml:space="preserve">
+    <value>mosaicreverse</value>
+  </data>
+  <data name="DiapoEffectmosaicSpiral.Text" xml:space="preserve">
+    <value>mosaicSpiral</value>
+  </data>
+  <data name="DiapoEffectmosaicSpiralReverse.Text" xml:space="preserve">
+    <value>mosaicSpiralReverse</value>
+  </data>
+  <data name="DiapoEffectrandom.Text" xml:space="preserve">
+    <value>random</value>
+  </data>
+  <data name="DiapoEffectsimpleFade.Text" xml:space="preserve">
+    <value>simpleFade</value>
+  </data>
+  <data name="DiapoEffectstampede.Text" xml:space="preserve">
+    <value>stampede</value>
+  </data>
+  <data name="DiapoEffecttopLeftBottomRight.Text" xml:space="preserve">
+    <value>topLeftBottomRight</value>
+  </data>
+  <data name="lblDiapoLoaderBackgroundColor.Help" xml:space="preserve">
+    <value>This will be the loader background color</value>
+  </data>
+  <data name="lblDiapoLoaderBackgroundColor.Text" xml:space="preserve">
+    <value>Loader Background Color</value>
+  </data>
+  <data name="lblDiapoLoaderColor.Help" xml:space="preserve">
+    <value>This will be the loader color</value>
+  </data>
+  <data name="lblDiapoLoaderColor.Text" xml:space="preserve">
+    <value>Loader Color</value>
+  </data>
+  <data name="lblDiapoTransitionTime.Help" xml:space="preserve">
+    <value>This will be the transition time</value>
+  </data>
+  <data name="lblDiapoTransitionTime.Text" xml:space="preserve">
+    <value>Transition Time</value>
+  </data>
+  <data name="Bullets.Text" xml:space="preserve">
+    <value>Bullets</value>
+  </data>
+  <data name="BulletsWithThumbnail.Text" xml:space="preserve">
+    <value>Bullet with Thumbnail</value>
+  </data>
+  <data name="lblDiapoHidePlayButton.Help" xml:space="preserve">
+    <value>Tick this will hide the play button</value>
+  </data>
+  <data name="lblDiapoHidePlayButton.Text" xml:space="preserve">
+    <value>Hide Play Button</value>
+  </data>
+  <data name="lblDiapoPaginationType.Help" xml:space="preserve">
+    <value>This will be the pagination type</value>
+  </data>
+  <data name="lblDiapoPaginationType.Text" xml:space="preserve">
+    <value>Pagination Type</value>
+  </data>
+  <data name="lblIncludeCustomStyles.Help" xml:space="preserve">
+    <value>If you enter some styles in here it will be included when loading the gallery</value>
+  </data>
+  <data name="lblIncludeCustomStyles.Text" xml:space="preserve">
+    <value>Include custom styles</value>
+  </data>
+  <data name="lblIncludeCustomStylesNote.Text" xml:space="preserve">
+    <value>ex: mystyle {}</value>
+  </data>
+  <data name="NoPagination.Text" xml:space="preserve">
+    <value>No Pagination</value>
+  </data>
+</root>

@@ -1,0 +1,147 @@
+/*
+* @package mj_simple
+* @copyright (C) 2012 by Dasinfomedia - All rights reserved!
+*/
+
+
+/* For tab Layout*/
+
+@media screen and (min-width: 751px) and (max-width: 800px) {
+	.mj-grid8 {
+		width: 14.666%;
+	}
+	.mj-grid16 {
+		width: 31.333%;
+	}
+	.mj-grid80 {
+		width: 64.666%;
+	}
+	.mj-grid88 {
+		width: 81.333%;
+	}
+	
+	.navbar .btn-navbar {
+		display: none !important;
+	}
+	
+	.nav-collapse.collapse {
+    	overflow: visible !important;
+  	}
+	
+	#mj-topbar .mj_headmenum {
+		width: 15%;
+	}
+	
+	.nav-collapse .nav li a {
+		font-weight: normal !important;
+	}
+	
+	#mj-righttop {
+		margin-top: 10px;
+	}
+	
+	#mj-righttop ul ul {
+		top: 50px;
+	}
+	
+	#mj-righttop ul ul ul {
+		top: 0px;
+		left: 160px !important;
+	}
+	
+	#mj-righttop li a {
+		padding: 5px 7px;
+	}
+	
+	li ul.nav-child {
+		width: 160px !important;
+	}
+	
+	li ul.nav-child li ul.nav-child {
+		left: 150px !important;
+	}
+	
+	#mj-featured2 .moduletable.mj-grid16.mj-dotted {
+		min-height: 280px;
+	}
+	
+	.mj-whitebox, .mj-darkbox, .mj-colorbox {
+		margin-left: 2px;
+		margin-right: 2px;
+		padding: 10px 3px;
+	}
+	
+	.mj-whitebox img, .mj-darkbox img, .mj-colorbox img {
+		max-width: 105%;
+	}
+	
+	h1, h2, h3, h4, h5, h6 {
+    	word-wrap: break-word;
+	}
+	
+	
+	.search .show_hide {
+		background: url(../images/search.png) no-repeat scroll 5px 0px transparent;
+		color: #FFFFFF;
+		display: block;
+		font-size: 0;
+		height: 20px;
+		text-indent: -9999px;
+		text-transform: capitalize;
+		width: 20px;
+	}	
+		
+	.slidingDiv {
+		margin:0px !important;
+		width: 85%;
+	}	
+	
+	#mj-left ul.menu li li, #mj-right ul.menu li li
+	{
+		background: #E7E7E7 !important;
+	}
+	
+	.map
+	{
+		width:200px !important;
+	}
+	
+	.videotag
+	{
+		width:195px !important;
+	}
+	
+	.contact textarea {
+		width: 250px;
+	}
+	
+	#mj-logo {	
+		margin-top: 15px;
+	}
+
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1200px)
+{
+	
+	#mj-topbar .mj_headmenum {
+		float: right;
+		width: 11% !important;
+	}	
+	
+	.search .show_hide {
+		background: url(../images/search.png) no-repeat scroll 5px 0px transparent;
+		color: #FFFFFF;
+		display: block;
+		font-size: 0;
+		height: 20px;
+		text-indent: -9999px;
+		text-transform: capitalize;
+		width: 20px;
+	}
+	
+	.slidingDiv {
+		margin:0px !important;
+		width: 85%;
+	}
+}

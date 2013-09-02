@@ -1,0 +1,1 @@
+jQuery.timeago.settings.strings={suffixAgo:"?",suffixFromNow:"?",seconds:"1? ??",minute:"1?",minutes:"%d?",hour:"1??",hours:"%d??",day:"??",days:"%d?",month:"? ?",months:"%d?",year:"1?",years:"%d?",wordSeparator:" "};

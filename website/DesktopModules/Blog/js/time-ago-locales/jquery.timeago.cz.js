@@ -1,0 +1,1 @@
+jQuery.timeago.settings.strings={prefixAgo:"pred",prefixFromNow:null,suffixAgo:null,suffixFromNow:null,seconds:"méne než minutou",minute:"minutou",minutes:"%d minutami",hour:"hodinou",hours:"%d hodinami",day:"1 dnem",days:"%d dny",month:"1 mesícem",months:"%d mesíci",year:"1 rokem",years:"%d roky"};

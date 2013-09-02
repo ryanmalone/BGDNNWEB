@@ -1,0 +1,22 @@
+<ul class="nav" id="mj-main">
+[*>NODE]
+</ul>
+[>NODE]
+	<li class="mj-up">
+	[?ENABLED]
+		<a href="[=URL]" target="[=TARGET]" class="mj-up_a" >
+		[=TEXT]
+		</a>
+	[?ELSE]
+		<span>[=TEXT]</span>
+	[/?]
+	[?NODE]
+
+	    <ul class="nav-child">
+	    [*>NODE]
+	    </ul>
+	</li>
+	[/?]
+	</li>
+[/>]
+

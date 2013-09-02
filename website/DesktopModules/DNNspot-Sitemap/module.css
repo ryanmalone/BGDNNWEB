@@ -1,0 +1,30 @@
+.DNNspotAdded, .DNNspotFound
+{
+	border: 1px #009933 solid;
+	background-color: #D2FFD2;
+	font-size: 12px;
+	padding: 5px;
+}
+.DNNspotNotFound
+{
+	border: 1px #999999 solid;
+	background-color: #F5F5F5;
+	font-size: 12px;
+	padding: 5px;
+}
+
+.DNNspotError
+{
+
+	border: 1px #990000 solid;
+	background-color: #FFE8E8;
+	font-size: 12px;
+	padding: 5px;
+/*mysessionvar1=ctl,mysessionvar2=tabid,mysessionvar3=hello*/
+}
+.DNNspotShowVariables h4
+{
+	font-size: 14px;
+	font-weight:bold;
+
+}

@@ -1,0 +1,348 @@
+/*
+* @package DNN_simple
+*@copyright (C) 2013 by Dasinfomedia - All rights reserved!
+*/
+
+/* For Mobile Layout*/
+
+@media screen and (max-width: 750px) {
+
+   .sep {
+        display:none;
+    }
+    .mj-full {
+        border: none;
+    }
+
+    #mj-logo {
+        width: 80%;
+    }
+
+    #mj-righttop {
+        width: 15%;
+    }
+
+    .mj-grid8, .mj-grid16, .mj-grid24, .mj-grid32, .mj-grid40, .mj-grid48,
+    .mj-grid56, .mj-grid64, .mj-grid72, .mj-grid80, .mj-grid88, .mj-grid96 {
+        float: left;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .custom.mj-grid8, .custom.mj-grid16, .custom.mj-grid24, .custom.mj-grid32, .custom.mj-grid40, .custom.mj-grid48,
+    .custom.mj-grid56, .custom.mj-grid64, .custom.mj-grid72, .custom.mj-grid80, .custom.mj-grid88, .custom.mj-grid96 {
+        border: none;
+        margin-bottom: 0px;
+    }
+
+
+        /* Mobile css */
+
+        .custom.mj-grid16 .imagpart {
+            width: 100%;
+            text-align: center;
+        }
+
+    .mj-grid96 .mj-gridimg {
+        text-align: center;
+    }
+
+    #mj-featured3 .imgmodule {
+        width: 100%;
+        background-color: #F3F3F3;
+    }
+
+    #mj-topbar .mj_call {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    #mj-topbar .mj_headmenum {
+        float: right;
+        width: 50% !important;
+    }
+
+    #mj-copyright .mj-grid16 {
+        width: 15% !important;
+    }
+
+    #mj-copyright .copyright {
+        width: 80% !important;
+    }
+
+    #mj-slideshow .mj-grid96 p img {
+        width: 100% !important;
+        float: left;
+    }
+
+    .mj-grid32 p img {
+        float: left;
+    }
+
+    .contact input[type="text"], .contact input[type="email"] {
+        width: 95%;
+    }
+
+    .contact label {
+        width: 100%;
+    }
+
+    .contact textarea {
+        width: 95%;
+    }
+
+    .cols-2 .column-1, .cols-2 .column-2 {
+        width: 100%;
+    }
+
+    .mj-imagepart {
+        text-align: center;
+    }
+
+    .mj-grid32 img {
+        float: left;
+        width: 97%;
+    }
+
+    #mj-header li {
+        float: left;
+        padding: 0px 0 !important;
+    }
+
+    .mj-mainnav.navbar .nav > li > a {
+        background-color: grey !important;
+    }
+
+    #mj-pos-mainnav {
+        position: absolute;
+        right: 3px;
+        top: 36px;
+        width: 280px;
+    }
+
+    .navbar .btn-navbar {
+        background: url(../images/menu_btn.png);
+    }
+
+    #mj-header .nav-child li.parent a {
+        background: none;
+    }
+
+    .mj-mainnav.navbar .nav > li ul.nav-child li:first-child {
+        border-top: none;
+    }
+
+    .mj-whitebox, .mj-darkbox, .mj-colorbox {
+        padding: 10px 0px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        word-wrap: break-word;
+    }
+
+    .item-page .spotlight, .item-page .lightbox {
+        text-align: center;
+    }
+
+        .item-page .spotlight img, .lightbox img {
+            width: 97%;
+        }
+
+    .blog img {
+        width: 96%;
+        text-align: center;
+    }
+
+    .pagination ul {
+        width: 100%;
+    }
+
+    .search .show_hide {
+        background: url(../images/search.png) no-repeat scroll 78px 28px transparent;
+        color: white;
+        display: block;
+        font-size: 0;
+        height: 44px;
+        padding-left: 108px;
+        text-indent: -9999px;
+        text-transform: capitalize;
+        width: 241px;
+        margin-top: -42px;
+    }
+
+    .mj-boxcontent {
+        float: left;
+        width: 91%;
+    }
+
+        .mj-boxcontent pre {
+            float: left;
+            width: 34%;
+        }
+
+    em, code {
+        float: left;
+    }
+
+    #mod-search-searchword {
+        width: 78% !important;
+    }
+
+    .nspArtPage.nspCol3 .nspCol3 {
+        margin-bottom: 10px;
+        padding: 0 !important;
+        width: 100%;
+    }
+
+    .nspArtPage.nspCol3 {
+        width: 33.3% !important;
+    }
+
+    #mj-footer .moduletable {
+        margin-bottom: 20px;
+    }
+
+    .contact-form .validate, .remind .validate, .reset .validate, .register_btn, .login_links, .login fieldset .button {
+        left: 0;
+    }
+
+    #mj-slideshow .text {
+        margin-left: 30px;
+    }
+
+    .slidingDiv {
+        margin-right: 50px;
+    }
+
+    #mj-header .nav-child li.parent:hover a, #mj-header .nav-child li.parent.active a {
+        background: none repeat scroll 0 0 transparent;
+    }
+
+    #mj-featured2 .mj-grid16 {
+        width: 100% !important;
+    }
+
+        #mj-featured2 .mj-grid16 p {
+            text-align: center;
+        }
+}
+
+@media screen and (min-width: 551px) and (max-width: 750px) {
+
+    #mj-footer .mj-grid24 {
+        width: 100% !important;
+    }
+     .sep {
+        display:none;
+    }
+}
+
+@media screen and (min-width: 551px) and (max-width: 750px) {
+
+    #mj-footer .mj-grid24 {
+        margin-left: 1%;
+        min-height: 285px;
+        width: 49% !important;
+    }
+
+    #mj-topbar .mj_headmenum {
+        float: right;
+        width: 37% !important;
+    }
+     .sep {
+        display:none;
+    }
+}
+
+
+
+@media only screen and (max-width:320px) {
+    #mj-topbar .mj_headmenum {
+        float: right;
+        width: 62% !important;
+    }
+
+     .sep {
+        display:none;
+    }
+    table th {
+        font-size: 12px;
+        padding: 10px 1px;
+    }
+
+    table td {
+        font-size: 11px;
+        padding: 5px 1px;
+    }
+
+    .search .show_hide {
+        background: url(../images/search.png) no-repeat scroll 44px 27px transparent !important;
+        color: #FFFFFF;
+        display: block;
+        font-size: 0;
+        height: 42px;
+        padding-left: 108px;
+        text-indent: -9999px;
+        text-transform: capitalize;
+        width: 135px;
+        margin-top: -40px;
+    }
+
+    #mod-search-searchword {
+        width: 78% !important;
+    }
+
+    .mj-boxcontent {
+        float: left;
+        width: 91%;
+    }
+
+        .mj-boxcontent pre {
+            float: left;
+            width: 34%;
+        }
+}
+
+
+
+
+
+
+@media only screen and (max-width:250px) {
+      .sep {
+        display:none;
+    }
+
+    #mj-topbar .mj_headmenum {
+        float: right;
+        width: 70% !important;
+    }
+
+    .mj-subcontainer {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .search .show_hide {
+        width: 102px !important;
+    }
+
+    .slidingDiv {
+        width: 70% !important;
+    }
+    #dnn_search_txtSearch {
+        width:75% !important;
+    }
+
+    #mj-logo a {
+        font-size: 24px;
+        color: white;
+    }
+
+    .map {
+        width: 216px !important;
+    }
+}

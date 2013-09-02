@@ -1,0 +1,196 @@
+﻿<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="CodingStaff.MenuBox" type="Module" version="2.0.5">
+      <friendlyName>Coding Staff Menu Box</friendlyName>
+      <description>Menu Box is a dotnetnuke menu module which works as a container for different menu templates. Those templates could be created manually or using Coding Staff Menu Factory web service. In combination with Menu Factory, Menu Box provides web masters with an ultimate solution for DotNetNuke navigation.</description>
+      <owner>
+        <name>Coding Staff Inc.</name>
+        <organization>Coding Staff Inc.</organization>
+        <url>www.codingstaff.com</url>
+        <email>support@codingstaff.com</email>
+      </owner>
+      <license> &lt;p style="height:250px; width:550px; overflow:scroll;"&gt;
+          &lt;span class="quote"&gt;
+          Coding Staff ® - http://www.codingstaff.com&lt;br/&gt;
+          Copyright © 2011&lt;br/&gt;
+          by Coding Staff Inc.
+          &lt;br/&gt;&lt;br/&gt;
+          Coding Staff modules and skins use permissions depend on type of license and package you purchased.
+          Standard license allows to install the module on one web domain and one DotNetNuke® installation.
+          The module can be installed on multiple DNN portals as long as they run under one web domain.
+          Enterprise license allows the module installation on multiple web domains, multiple DNN installations and web portals.
+          &lt;br/&gt;
+          You are not allowed to resell this software online. However, you can use this skin or module on your
+          client projects.
+          &lt;br/&gt;
+          For more information about Coding Staff products and licensing policies, please visit www.codingstaff.com/products/license.
+          &lt;br/&gt;&lt;br/&gt;
+          THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+          TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+          THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+          CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+          DEALINGS IN THE SOFTWARE.&lt;/span&gt;&lt;/p&gt;</license>
+      <releaseNotes />      
+      <components>
+        <component type="Script">
+          <scripts>
+            <basePath>DesktopModules\CodingStaff.MenuBox</basePath>
+            <script type="Install">
+              <name>01.00.00.SqlDataProvider</name>
+              <version>01.00.00</version>
+            </script>
+          </scripts>
+        </component>
+        <component type="Module">
+          <desktopModule>
+            <moduleName>CodingStaff.MenuBox</moduleName>
+            <foldername>CodingStaff.MenuBox</foldername>
+            <businessControllerClass>CodingStaff.Modules.MenuBox.Components.MenuController, CodingStaff.MenuBox</businessControllerClass>
+            <supportedFeatures>
+              <supportedFeature type="Upgradeable" />
+            </supportedFeatures>
+            <moduleDefinitions>
+              <moduleDefinition>
+                <friendlyName>Coding Staff Menu Box</friendlyName>
+                <defaultCacheTime>0</defaultCacheTime>
+                <moduleControls>
+                  <moduleControl>
+                    <controlKey />
+                    <controlSrc>DesktopModules/CodingStaff.MenuBox/MenuBoxModule.ascx</controlSrc>
+                    <supportsPartialRendering>False</supportsPartialRendering>
+                    <controlTitle>View Content</controlTitle>
+                    <controlType>View</controlType>
+                    <iconFile />
+                    <helpUrl />
+                    <viewOrder>0</viewOrder>
+                  </moduleControl>
+                  <moduleControl>
+                    <controlKey>Edit</controlKey>
+                    <controlSrc>DesktopModules/CodingStaff.MenuBox/ManageMenuThemes.ascx</controlSrc>
+                    <supportsPartialRendering>False</supportsPartialRendering>
+                    <controlTitle>Edit Content</controlTitle>
+                    <controlType>Edit</controlType>
+                    <iconFile />
+                    <helpUrl />
+                    <viewOrder>0</viewOrder>
+                  </moduleControl>
+                  <moduleControl>
+                    <controlKey>Settings</controlKey>
+                    <controlSrc>DesktopModules/Codingstaff.MenuBox/Settings.ascx</controlSrc>
+                    <supportsPartialRendering>False</supportsPartialRendering>
+                    <controlTitle>Settings</controlTitle>
+                    <controlType>Edit</controlType>
+                    <iconFile />
+                    <helpUrl />
+                    <viewOrder>0</viewOrder>
+                  </moduleControl>
+                </moduleControls>
+              </moduleDefinition>
+            </moduleDefinitions>
+          </desktopModule>
+          <eventMessage>
+            <processorType>DotNetNuke.Entities.Modules.EventMessageProcessor, DotNetNuke</processorType>
+            <processorCommand>UpgradeModule</processorCommand>
+            <attributes>
+              <businessControllerClass>CodingStaff.Modules.MenuBox.Components.MenuController, CodingStaff.MenuBox</businessControllerClass>
+              <desktopModuleID>[DESKTOPMODULEID]</desktopModuleID>
+              <upgradeVersionsList>01.00.00</upgradeVersionsList>
+            </attributes>
+          </eventMessage>
+        </component>
+ <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules\CodingStaff.MenuBox</basePath>
+            <resourceFile>
+              <name>resource.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component> 
+ <component type="Assembly">
+          <assemblies>
+           <basePath>bin</basePath>
+            <assembly>
+              <name>CodingStaff.MenuBox.dll</name>
+            </assembly>           
+	</assemblies>
+      </component>       
+        <component type="File">
+          <files>
+            <basePath>DesktopModules\CodingStaff.MenuBox</basePath>
+            <file>
+              <name>CodingStaff.MenuBox.dnn</name>
+            </file>
+            <file>
+              <name>CodingStaffMenuBox.ascx</name>
+            </file>
+            <file>
+              <name>MenuBoxModule.ascx</name>
+            </file>            
+            <file>
+              <name>module.css</name>
+            </file>
+            <file>
+              <name>SkinList.ascx</name>
+            </file>
+            <file>
+              <name>MenuBoxSkinObject.ascx</name>
+            </file>
+            <file>
+              <path>App_LocalResources</path>
+              <name>MenuBoxModule.ascx.resx</name>
+            </file>
+            <file>
+              <path>App_LocalResources</path>
+              <name>SkinList.ascx.resx</name>
+            </file>
+            <file>
+              <path>Documentation</path>
+              <name>License.htm</name>
+            </file>
+            <file>
+              <path>Documentation</path>
+              <name>ReleaseNotes.htm</name>
+            </file>
+            <file>
+              <path>images</path>
+              <name>add.gif</name>
+            </file>
+            <file>
+              <path>images</path>
+              <name>ajax-loader.gif</name>
+            </file>
+            <file>
+              <path>images</path>
+              <name>btn.gif</name>
+            </file>
+            <file>
+              <path>images</path>
+              <name>delete.gif</name>
+            </file>
+            <file>
+              <name>Settings.ascx</name>
+            </file>
+            <file>
+              <path>App_LocalResources</path>
+              <name>Settings.ascx.resx</name>
+            </file>
+            <file>
+              <name>ManageMenuThemes.ascx</name>
+            </file>
+            <file>
+              <name>PageSelector.ascx</name>
+            </file>
+            <file>
+              <path>App_LocalResources</path>
+              <name>ManageMenuThemes.ascx.resx</name>
+            </file>
+            <file>
+              <path>images</path>
+              <name>menu_box_icon_16x.png</name>
+            </file>
+          </files>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

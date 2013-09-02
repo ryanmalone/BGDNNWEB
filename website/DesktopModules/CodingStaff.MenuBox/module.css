@@ -1,0 +1,246 @@
+﻿.cs-skinlist .cs-updating
+{
+	width:100px;
+	padding-left:28px;
+	height:28px;
+	line-height:28px;
+	background-position:left center;
+	background-image:url(images/ajax-loader.gif);
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	float:left;
+}
+
+.cs-skinlist .image-style
+{
+	border:none;
+	width: 100px;
+	height: 100px;
+}
+
+.cs-skinlist
+{
+	background-color: White;
+	padding: 5px;
+	overflow:visible;
+	text-align:left;
+}
+
+.cs-skinlist .skin-item
+{
+	text-align: left;
+	margin: 5px;
+	padding: 5px;
+	padding-left:25px;
+	overflow: hidden;
+	width: auto;
+	clear: both;
+}
+
+.cs-skinlist .new-skin-item
+{
+	margin: 5px;
+	padding: 5px;
+	overflow: hidden;
+	width: auto;
+	clear: both;
+}
+
+.cs-skinlist .new-item-margin
+{
+	float: left;
+	height:30px;
+	width:175px;
+}
+
+.cs-skinlist .separator
+{
+	height: 1px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	clear: both;
+	border-bottom: solid 1px #dedddd;
+}
+
+.cs-skinlist .skin-item-picture
+{
+	width: 150px;
+	float: left;
+}
+.cs-skinlist .cs-current-label
+{
+	padding-left: 25px;
+	float: left;
+	font-weight: bold;
+	color: #008000;
+}
+
+.cs-skinlist .cs-error-label
+{
+	float: left;
+	font-weight: bold;
+	color: #CC0000;
+}
+.cs-skinlist .cs-default-label
+{
+	float: left;
+	font-weight: bold;
+	color: #008000;
+}
+.cs-skinlist .skin-item-info
+{
+	float: left;
+	overflow: hidden;
+	width: 400px;
+}
+
+.cs-skinlist .cs-actions-area
+{
+	width: 100px;
+	float: right;
+}
+
+.cs-skinlist .DNN_File_Selector
+{
+	width: 400px;
+	overflow: hidden;
+}
+.cs-skinlist .DNN_File_Selector .input-field span
+{
+	font-family:Tahoma,Arial,Helvetica;
+	font-size:14px;
+}
+.cs-skinlist .DNN_File_Selector .SubHead
+{
+	width: 100px;
+	float: left;
+	text-align: left;
+	overflow: hidden;
+	color: #0476a1;
+}
+
+.cs-skinlist .DNN_File_Selector .input-field
+{
+	width: 200px;
+	float: left;
+}
+
+.cs-skinlist .DNN_File_Selector .input-field a
+{
+	text-decoration:underline;
+	font-family:Tahoma,Arial,Helvetica;
+	font-size:14px;
+}
+
+.cs-skinlist .DNN_File_Selector .file_selector_row
+{
+	overflow: hidden;
+	margin: 0px;
+	margin-bottom:5px;
+	padding-bottom:1px;
+	clear: both;
+}
+
+.cs-confirm-actions .cs-button
+{
+    float:left;
+    margin-left: 10px;
+}
+
+.cs-skinlist .cs-button,
+.cs-confirm-actions .cs-button
+{
+	background-image: url(images/btn.gif);
+	background-repeat: no-repeat;
+	background-color: Transparent;
+	border: none;
+	font-weight: bold;
+	height: 22px;
+	width: 100px;
+	display: block;
+	font-family: Arial;
+	text-align:center !important;
+	font-size: 11px;
+	color: #898989 !important;
+}
+
+.cs-skinlist .cs-button-margin
+{
+	float:left;
+	width:70px;
+}
+
+.cs-skinlist .cs-button-make-current
+{
+	margin-right: 10px;
+	text-decoration: none;
+	line-height: 22px;
+	float:left;
+	text-align: center;
+}
+
+a.cs-button-make-current:hover, 
+a.cs-button-make-current:visited, 
+a.cs-button-make-current:link
+{
+	text-decoration: none !important;
+	line-height: 22px;
+	float:left;
+	text-align: center;
+}
+
+.cs-skinlist .cs-button-delete
+{
+	background: transparent url(images/delete.gif) no-repeat;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 19px;
+	font-family: Arial;
+	font-size: 13px !important;
+	font-weight: normal;
+	color: #5d5d5e !important;
+}
+
+.cs-skinlist .cs-button-add
+{
+	background: transparent url(images/add.gif) no-repeat;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 19px;
+	font-family: Arial;
+	font-size: 13px !important;
+	font-weight: normal;
+	color: #5d5d5e !important;
+	float:right;
+	margin-right: 10px;
+}
+
+.cs-skinlist .cs-log-area
+{
+	margin: 10px;
+}
+
+.cs-skinlist .cs-log-header
+{
+	padding-bottom: 10px;
+}
+
+.cs-skinlist .cs-log-header span
+{
+	font-size:14px;
+	font-weight: bold;
+	
+}
+
+.cs-skinlist .cs-log-message .error-message
+{
+	font-size: 12px;
+	color: #FF0000;
+}
+
+.cs-skinlist .cs-log-message .success-message
+{
+	font-size: 12px;
+	color: #009900;
+}

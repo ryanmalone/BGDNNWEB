@@ -1,0 +1,179 @@
+﻿/******************************** ALBUMS *******************************/
+.DNNINfo_ImageGallery_FancyBoxAlbumWrapper{
+    display:inline-block;
+}
+
+ul.DNNInfo_ImageGallery_FancyBoxULAlbums, ul.DNNInfo_ImageGallery_FancyBoxULAlbums li
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+ul.DNNInfo_ImageGallery_FancyBoxULAlbums li{
+	width:300px;
+    float:left;
+    margin:0px 8px 5px 0px;
+}
+
+.DNNInfo_ImageGallery_FancyBoxAlbumBox{
+    background:#eeeeee;
+    border:3px double #eeeeee;
+    padding:5px;
+    cursor:pointer;
+    display:inline-table;
+    min-height:80px;
+    height:auto !important;
+    height:80px;
+    text-align:left;
+}
+
+.DNNInfo_ImageGallery_FancyBoxAlbumName{
+    color:#3a3838;
+    font-weight:bold;
+    font-size:14px;
+}
+
+.DNNInfo_ImageGallery_FancyBoxAlbumDescription{
+     color:#4a4d4a;
+     font-size:11px;
+     margin-bottom:5px;
+}
+
+.DNNInfo_ImageGallery_FancyBoxAlbumCreatedDate, .DNNInfo_ImageGallery_FancyBoxAlbumCreatedBy, .DNNInfo_ImageGallery_FancyBoxTotalImages
+{
+	font-size:10px;
+	color:#6d6767;
+}
+
+
+.DNNInfo_ImageGallery_FancyBoxAlbumImageBox{
+    width:110px;
+    float:left;
+}
+
+.DNNInfo_ImageGallery_FancyBoxAlbumInfo{
+    width:170px;
+    float:right;
+    text-align:left;
+}
+
+.DNNInfo_Empty
+{
+	padding:0px 5px;
+	font-size:11px;
+}
+
+/******************************** END ALBUMS *******************************/
+
+/******************************** IMAGES *******************************/
+.DNNINfo_ImageGallery_FancyBoxImageWrapper{
+ 
+}
+
+.DNNInfo_ImageGallery_FancyBoxImageBox
+{
+	cursor:pointer;
+    min-height:100px;
+    height:auto !important;
+    height:100px;
+    text-align:left;
+}
+
+ul.DNNInfo_ImageGallery_FancyBoxULImages, ul.DNNInfo_ImageGallery_FancyBoxULImages li
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+ul.DNNInfo_ImageGallery_FancyBoxULImages li{
+    float:left;
+    margin:9px;
+    
+}
+
+.DNNInfo_ImageGallery_FancyBoxImageBox
+{
+   
+   
+    display:block;
+    width:97%;
+	height:100px;
+}
+
+/*.DNNInfo_ImageGallery_FancyBoxImageMouseOver{
+    background-color:#e4dfdf;
+    border:solid 5px #e4dfdf;
+}*/
+
+.DNNInfo_ImageGallery_FancyBoxTitle
+{
+	font-size:14px;
+	color:#2c6ff6;
+	padding-bottom:5px;
+}
+
+.DNNInfo_ImageGallery_FancyBoxDescription
+{
+	font-size:11px;
+	color:#c0bbbb;
+	font-style:italic;
+	padding-bottom:5px;
+}
+
+.DNNInfo_ImageGallery_FancyBoxImageBox a img {
+    padding: 4px;
+border: 1px solid rgb(204, 204, 204);
+width: 97%;
+background-color: rgb(255, 255, 255);
+margin-top: 4px;
+height:258px;
+}
+
+/******************************** END IMAGES *******************************/
+
+/******************************** MISC *******************************/
+.DNNInfo_ImageGallery_FancyBoxGalleryPaging
+{
+	line-height:25px;
+    height:25px;
+    padding:0px 10px;
+	background-color:#ededed;
+	margin-bottom:5px;
+}
+
+.DNNInfo_ImageGallery_FancyBoxGalleryPaging a.linkSelected{
+    font-weight:bold;
+    text-decoration:underline;
+    color:#4646dd;
+}
+
+.DNNInfo_ImageGallery_FancyBoxGalleryBreadCrumb, .DNNInfo_ImageGallery_FancyBoxGalleryBreadCrumb a
+{
+	font-size:11px;
+	text-decoration:none;
+}
+
+.DNNInfo_ImageGallery_FancyBoxGalleryBreadCrumb
+{
+	margin-bottom:8px;
+}
+
+
+.DNNInfo_ImageGallery_FancyBoxAlbumMouseOver{
+    background-color:#8facdf;
+}
+
+/*.DNNInfo_ImageGallery_FancyBoxImageMouseOver{
+    background-color:#8facdf;
+}*/
+
+.DNNInfo_ImageGallery_FancyBoxClearBoth{
+	clear:both;
+}
+
+.DNNInfo_ImageGallery_FancyBoxEmpty{
+	padding:10px 0px;
+}
+/******************************** END MISC *******************************/

@@ -1,0 +1,129 @@
+/*reset default properties*/
+
+.{skin_id} .sf-menu a {
+	border-left: none;
+	border-top: none;
+}
+
+.{skin_id} .sf-menu li:hover, 
+.{skin_id} .sf-menu li.sfHover,
+.{skin_id} .sf-menu a:focus, 
+.{skin_id} .sf-menu a:hover, 
+.{skin_id} .sf-menu a:active {
+	background:		none;
+}
+
+
+/* generated styles */
+
+
+/* global settings */
+.{skin_id} ul.sf-menu {
+	font-family:{global_font:font-family};
+	font-weight:{global_font:font-weight};
+	font-size:{global_font:font-size};
+	{top_default_color};
+	padding:3px;
+}
+
+.{skin_id} ul.sf-menu > li {
+	background: transparent;
+	margin-left: 0.3em;
+}
+
+.{skin_id} ul.sf-menu > li > a {
+	padding: 0.6em 0.5em;
+	padding-right: 1.65em !important;
+	
+}
+
+
+/* top level default styles */
+.{skin_id} ul.sf-menu {
+	{top_default_background};
+}
+
+.{skin_id} ul.sf-menu a, .{skin_id} ul.sf-menu a:visited {
+	{top_default_color};
+	{top_default_border};
+}
+
+/* top level hover styles */
+
+.{skin_id} ul.sf-menu > li > a:hover,
+.{skin_id} ul.sf-menu > li.sfHover > a {
+	{top_hover_color};
+	{top_hover_background};
+	-moz-border-radius: {global_corner_radius:-moz-border-radius};
+	-webkit-border-radius: {global_corner_radius:-webkit-border-radius};
+    {top_hover_border};
+}
+
+/* top level selected styles */
+
+.{skin_id} ul.sf-menu > li.current > a {
+	{top_active_color};
+	{top_active_background};
+	-moz-border-radius: {global_corner_radius:-moz-border-radius};
+	-webkit-border-radius: {global_corner_radius:-webkit-border-radius};
+    {top_active_border};
+}
+
+
+
+/* inner level default styles */
+.{skin_id} ul.sf-menu ul li,
+.{skin_id} ul.sf-menu ul li.sfHover,
+.{skin_id} ul.sf-menu ul li:hover {
+	{inner_default_background};
+}
+
+.{skin_id} ul.sf-menu ul li.first {
+	-moz-border-radius: {global_corner_radius:-moz-border-radius};
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	
+	-webkit-border-radius: {global_corner_radius:-webkit-border-radius};
+	-webkit-border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+}
+
+.{skin_id} ul.sf-menu ul li.last {
+	-moz-border-radius: {global_corner_radius:-moz-border-radius};
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	
+	-webkit-border-radius: {global_corner_radius:-webkit-border-radius};
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+}
+
+.{skin_id} ul.sf-menu ul a, 
+.{skin_id} ul.sf-menu ul a:visited {
+	{inner_default_color};
+	margin: 0.2em;
+	background: transparent;
+    {inner_default_border};
+}
+
+/* inner level hover styles */
+
+.{skin_id} ul.sf-menu ul li a:hover {
+	{inner_hover_color};
+	{inner_hover_background};
+	-moz-border-radius: {global_corner_radius:-moz-border-radius};
+	-webkit-border-radius: {global_corner_radius:-webkit-border-radius};
+    {inner_hover_border};
+}
+
+/* inner level selected styles */
+
+.{skin_id} ul.sf-menu ul li.current a {
+	{inner_active_color};
+	{inner_active_background};
+	-moz-border-radius: {global_corner_radius:-moz-border-radius};
+	-webkit-border-radius: {global_corner_radius:-webkit-border-radius};
+    {inner_active_border};
+}
+
+

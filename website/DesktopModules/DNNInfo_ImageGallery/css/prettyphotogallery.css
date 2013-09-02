@@ -1,0 +1,169 @@
+﻿/******************************** ALBUMS *******************************/
+.DNNINfo_ImageGallery_PrettyPhotoAlbumWrapper{
+    display:inline-block;
+}
+
+ul.DNNInfo_ImageGallery_PrettyPhotoULAlbums, ul.DNNInfo_ImageGallery_PrettyPhotoULAlbums li
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+ul.DNNInfo_ImageGallery_PrettyPhotoULAlbums li{
+	width:300px;
+    float:left;
+    margin:0px 8px 5px 0px;
+}
+
+.DNNInfo_ImageGallery_PrettyPhotoAlbumBox{
+    background:#eeeeee;
+    border:3px double #eeeeee;
+    padding:5px;
+    cursor:pointer;
+    display:inline-table;
+    min-height:80px;
+    height:auto !important;
+    height:80px;
+    text-align:left;
+}
+
+.DNNInfo_ImageGallery_PrettyPhotoAlbumName{
+    color:#3a3838;
+    font-weight:bold;
+    font-size:14px;
+}
+
+.DNNInfo_ImageGallery_PrettyPhotoAlbumDescription{
+     color:#4a4d4a;
+     font-size:11px;
+     margin-bottom:5px;
+}
+
+.DNNInfo_ImageGallery_PrettyPhotoAlbumCreatedDate, .DNNInfo_ImageGallery_PrettyPhotoAlbumCreatedBy, .DNNInfo_ImageGallery_PrettyPhotoTotalImages
+{
+	font-size:10px;
+	color:#6d6767;
+}
+
+
+.DNNInfo_ImageGallery_PrettyPhotoAlbumImageBox{
+    width:110px;
+    float:left;
+}
+
+.DNNInfo_ImageGallery_PrettyPhotoAlbumInfo{
+    width:170px;
+    float:right;
+    text-align:left;
+}
+
+.DNNInfo_Empty
+{
+	padding:0px 5px;
+	font-size:11px;
+}
+
+/******************************** END ALBUMS *******************************/
+
+/******************************** IMAGES *******************************/
+.DNNINfo_ImageGallery_PrettyPhotoImageWrapper{
+ 
+}
+
+.DNNInfo_ImageGallery_PrettyPhotoImageBox
+{
+	cursor:pointer;
+    min-height:100px;
+    height:auto !important;
+    height:100px;
+    text-align:left;
+}
+
+ul.DNNInfo_ImageGallery_PrettyPhotoULImages, ul.DNNInfo_ImageGallery_PrettyPhotoULImages li
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+ul.DNNInfo_ImageGallery_PrettyPhotoULImages li{
+    float:left;
+    margin:0px 8px 8px 0;
+}
+
+.DNNInfo_ImageGallery_PrettyPhotoImageBox
+{
+    background:#eeeeee;
+    border:5px double #eeeeee;
+    display:block;
+    width:100px;
+	height:100px;
+}
+
+.DNNInfo_ImageGallery_PrettyPhotoImageMouseOver{
+    background-color:#e4dfdf;
+    border:solid 5px #e4dfdf;
+}
+
+.DNNInfo_ImageGallery_PrettyPhotoTitle
+{
+	font-size:14px;
+	color:#2c6ff6;
+	padding-bottom:5px;
+}
+
+.DNNInfo_ImageGallery_PrettyPhotoDescription
+{
+	font-size:11px;
+	color:#c0bbbb;
+	font-style:italic;
+	padding-bottom:5px;
+}
+
+/******************************** END IMAGES *******************************/
+
+/******************************** MISC *******************************/
+.DNNInfo_ImageGallery_PrettyPhotoGalleryPaging
+{
+	line-height:25px;
+    height:25px;
+    padding:0px 10px;
+	background-color:#ededed;
+	margin-bottom:5px;
+}
+
+.DNNInfo_ImageGallery_PrettyPhotoGalleryPaging a.linkSelected{
+    font-weight:bold;
+    text-decoration:underline;
+    color:#4646dd;
+}
+
+.DNNInfo_ImageGallery_PrettyPhotoGalleryBreadCrumb, .DNNInfo_ImageGallery_PrettyPhotoGalleryBreadCrumb a
+{
+	font-size:11px;
+	text-decoration:none;
+}
+
+.DNNInfo_ImageGallery_PrettyPhotoGalleryBreadCrumb
+{
+	margin-bottom:8px;
+}
+
+
+.DNNInfo_ImageGallery_PrettyPhotoAlbumMouseOver{
+    background-color:#8facdf;
+}
+
+.DNNInfo_ImageGallery_PrettyPhotoImageMouseOver{
+    background-color:#8facdf;
+}
+
+.DNNInfo_ImageGallery_PrettyPhotoClearBoth{
+	clear:both;
+}
+
+.DNNInfo_ImageGallery_PrettyPhotoEmpty{
+	padding:10px 0px;
+}
+/******************************** END MISC *******************************/

@@ -1,0 +1,129 @@
+/*reset default properties*/
+
+.SuperFishMenuHorizontal .sf-menu a {
+	border-left: none;
+	border-top: none;
+}
+
+.SuperFishMenuHorizontal .sf-menu li:hover, 
+.SuperFishMenuHorizontal .sf-menu li.sfHover,
+.SuperFishMenuHorizontal .sf-menu a:focus, 
+.SuperFishMenuHorizontal .sf-menu a:hover, 
+.SuperFishMenuHorizontal .sf-menu a:active {
+	background:		none;
+}
+
+
+/* generated styles */
+
+
+/* global settings */
+.SuperFishMenuHorizontal ul.sf-menu {
+	font-family:Verdana,Arial,sans-serif;
+	font-weight:bold;
+	font-size:0.8em;
+	color: #ffffff ;
+	padding:3px;
+}
+
+.SuperFishMenuHorizontal ul.sf-menu > li {
+	background: transparent;
+	margin-left: 0.3em;
+}
+
+.SuperFishMenuHorizontal ul.sf-menu > li > a {
+	padding: 0.6em 0.5em;
+	padding-right: 1.65em !important;
+	
+}
+
+
+/* top level default styles */
+.SuperFishMenuHorizontal ul.sf-menu {
+	background: #404040  ;
+}
+
+.SuperFishMenuHorizontal ul.sf-menu a, .SuperFishMenuHorizontal ul.sf-menu a:visited {
+	color: #ffffff ;
+	border: #404040 solid 0px ;
+}
+
+/* top level hover styles */
+
+.SuperFishMenuHorizontal ul.sf-menu > li > a:hover,
+.SuperFishMenuHorizontal ul.sf-menu > li.sfHover > a {
+	color: #ffffff ;
+	background: #5A5A5A  ;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+    border: #5A5A5A solid 0px ;
+}
+
+/* top level selected styles */
+
+.SuperFishMenuHorizontal ul.sf-menu > li.current > a {
+	color: #ffffff ;
+	background: #EB4C07  ;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+    border: #EB4C07 solid 0px ;
+}
+
+
+
+/* inner level default styles */
+.SuperFishMenuHorizontal ul.sf-menu ul li,
+.SuperFishMenuHorizontal ul.sf-menu ul li.sfHover,
+.SuperFishMenuHorizontal ul.sf-menu ul li:hover {
+	background: #2C2C2C  ;
+}
+
+.SuperFishMenuHorizontal ul.sf-menu ul li.first {
+	-moz-border-radius: 3px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	
+	-webkit-border-radius: 3px;
+	-webkit-border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+}
+
+.SuperFishMenuHorizontal ul.sf-menu ul li.last {
+	-moz-border-radius: 3px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	
+	-webkit-border-radius: 3px;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+}
+
+.SuperFishMenuHorizontal ul.sf-menu ul a, 
+.SuperFishMenuHorizontal ul.sf-menu ul a:visited {
+	color: #ffffff ;
+	margin: 0.2em;
+	background: transparent;
+    border: #2C2C2C solid 0px ;
+}
+
+/* inner level hover styles */
+
+.SuperFishMenuHorizontal ul.sf-menu ul li a:hover {
+	color: #ffffff ;
+	background: #5A5A5A  ;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+    border: #5A5A5A solid 0px ;
+}
+
+/* inner level selected styles */
+
+.SuperFishMenuHorizontal ul.sf-menu ul li.current a {
+	color: #ffffff ;
+	background: #EB4C07  ;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+    border: #EB4C07 solid 0px ;
+}
+
+

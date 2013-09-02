@@ -1,0 +1,152 @@
+/*
+* @package mj_simple
+* @copyright (C) 2012 by Dasinfomedia - All rights reserved!
+*/
+
+.read-more, .read-more a, #mj-featured1 h3, #mj-maincontent h3, #mj-maincontent .item-page h2, a,h1, h2, h3, h4 ,h5, h6,
+.contact .star {
+    color:#BFA43B;
+}
+
+.mj-colorbox {
+    background: none repeat scroll 0 0 #BFA43B;
+    border: 1px solid #A07F06;
+}
+
+ol > li:before {
+    border-bottom: 5px solid #BFA43B;
+}
+
+#mj-slideshow, #mj-slidetitle {
+	background-color: #BFA43B;
+	border-bottom: 3px solid #A07F06;
+}
+
+#mj-footer {
+	background: url(../images/footer_bg.png) repeat 0 0 transparent;
+	color: #FFFFFF;
+	background-color: #BFA43B;
+}
+
+/* menu css start */
+
+ul.menu li li:first-child {
+	border-top: 3px solid #BFA43B;
+}
+
+ul.menu li li:hover a, ul.menu li li.active a,
+ul.menu li li li:hover a, ul.menu li li li.active a {
+	color: #BFA43B !important;
+}
+
+ul.menu li li.parent:hover a, ul.menu li li.parent.active a {
+    background: url(../images/menu_arrow/yellow1.png) no-repeat scroll right center transparent;
+}
+
+#mj-left ul.menu li:hover a, #mj-left ul.menu li.active a,
+#mj-right ul.menu li:hover a, #mj-right ul.menu li.active a {
+	color:#BFA43B;
+}
+
+#mj-left ul.menu li.parent.active a, #mj-left ul.menu li.parent.active li.parent a,
+#mj-left ul.menu li.parent.active:hover li.parent a,
+#mj-right ul.menu li.parent.active a, #mj-right ul.menu li.parent.active li.parent a,
+#mj-right ul.menu li.parent.active:hover li.parent a {
+	background: url(../images/menu_arrow/yellow1.png) no-repeat scroll right center transparent;
+}
+
+#mj-left ul.menu li.parent.active:hover a, #mj-left ul.menu li.parent.active li.parent:hover a,
+#mj-right ul.menu li.parent.active:hover a, #mj-right ul.menu li.parent.active li.parent:hover a {
+	background: url(../images/menu_arrow/yellow2.png) no-repeat scroll right center transparent;
+}
+
+#mj-left li li li.active a,
+#mj-right li li li.active a {
+    color: #BFA43B !important;
+}
+
+/* menu css end */
+
+.pagination li {
+    border-bottom: 5px solid #BFA43B;
+}
+
+#mj-logo img {
+	background-color:#BFA43B;
+}
+
+.button, input[type="submit"], input[type="reset"], input[type="button"], .readmore ,button {
+	background-color: #BFA43B;
+	border:1px solid #BFA43B;
+}
+
+#mj-footer li a  {
+	border-bottom: 1px dashed #E0CA79;
+}
+
+.read-more {
+	background: url(../images/menu_arrow/yellow1.png) no-repeat right center transparent;
+}
+
+/* Tab CSS Start */
+
+.tabber_container div.tabber_nav li.tabber_tab.active a, .tabber_container  div.tabber_nav li.tabber_tab.active a:hover {
+    background: #BFA43B;
+}
+
+.tabber_container div.tabber_nav li.tabber_tab a:hover {
+    background-color: #F0E09D;
+}
+
+.tabber_container div.tabber_content {
+    border-color: #BFA43B !important;
+}
+
+/* Tab CSS End */
+
+.nspArt.nspCol3:hover img, .nspArt.nspCol3:hover .nspText {
+	border-color: #BFA43B;
+}
+
+#mj-featured2 img:hover, #mj-featured2 .mj-grid16:hover img {
+	border-color: #BFA43B;
+}
+
+.wk-twitter article {
+	border-top: 1px dashed #E0CA79 !important;
+}
+
+.mj-mainnav.navbar .nav > li ul.nav-child li:first-child {
+	border-top: 5px solid #BFA43B;
+}
+
+.nspArtPage .nspArt.nspCol3:hover img {
+    border-bottom: 5px solid #BFA43B;
+}
+
+#mj-header .nav-child li.parent:hover a, #mj-header .nav-child li.parent.active a {
+	background: url(../images/menu_arrow/yellow1.png) no-repeat center right;
+}
+
+#mj-header .nav-child li:hover a, #mj-header .nav-child li.parent:hover li:hover a,
+#mj-header .nav-child li.active a, #mj-header .nav-child li.parent.active li.active a {
+	color: #BFA43B;
+}
+
+.mj-event-time .mj-month, .mj-block-number .mj-bottom, .mj-section-title {
+	background-color: #BFA43B !important;
+}
+
+thead tr {
+	background-color: #BFA43B !important;
+	color:#ffffff;
+}
+
+.result-created {
+    border-bottom: 1px dashed #BFA43B;
+}
+
+#mj-left ul.menu li li li:hover a, #mj-left ul.menu li li li.active a,
+#mj-right ul.menu li li li:hover a, #mj-right ul.menu li li li.active a {
+	color: #BFA43B !important;
+}

@@ -1,0 +1,167 @@
+﻿/******************************** ALBUMS *******************************/
+.DNNINfo_ImageGallery_LightBoxAlbumWrapper{
+    display:inline-block;
+}
+
+ul.DNNInfo_ImageGallery_LightBoxULAlbums, ul.DNNInfo_ImageGallery_LightBoxULAlbums li
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+ul.DNNInfo_ImageGallery_LightBoxULAlbums li{
+	width:300px;
+    float:left;
+    margin:0px 8px 5px 0px;
+}
+
+.DNNInfo_ImageGallery_LightBoxAlbumBox{
+    background:#eeeeee;
+    border:3px double #eeeeee;
+    padding:5px;
+    cursor:pointer;
+    display:inline-table;
+    min-height:80px;
+    height:auto !important;
+    height:80px;
+    text-align:left;
+}
+
+.DNNInfo_ImageGallery_LightBoxAlbumName{
+    color:#3a3838;
+    font-weight:bold;
+    font-size:14px;
+}
+
+.DNNInfo_ImageGallery_LightBoxAlbumDescription{
+     color:#4a4d4a;
+     font-size:11px;
+     margin-bottom:5px;
+}
+
+.DNNInfo_ImageGallery_LightBoxAlbumCreatedDate, .DNNInfo_ImageGallery_LightBoxAlbumCreatedBy, .DNNInfo_ImageGallery_LightBoxTotalImages
+{
+	font-size:10px;
+	color:#6d6767;
+}
+
+
+.DNNInfo_ImageGallery_LightBoxAlbumImageBox{
+    width:110px;
+    float:left;
+}
+
+.DNNInfo_ImageGallery_LightBoxAlbumInfo{
+    width:170px;
+    float:right;
+    text-align:left;
+}
+
+.DNNInfo_ImageGallery_LightBoxEmpty
+{
+	padding:0px 5px;
+	font-size:11px;
+}
+
+/******************************** END ALBUMS *******************************/
+
+/******************************** IMAGES *******************************/
+.DNNINfo_ImageGallery_LightBoxImageWrapper{
+   
+}
+
+.DNNInfo_ImageGallery_LightBoxImageBox
+{
+    cursor:pointer;
+    min-height:100px;
+    height:auto !important;
+    height:100px;
+    text-align:left;
+}
+
+ul.DNNInfo_ImageGallery_LightBoxULImages, ul.DNNInfo_ImageGallery_LightBoxULImages li
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+ul.DNNInfo_ImageGallery_LightBoxULImages li{
+    float:left;
+    margin:0px 8px 8px 0;
+}
+
+.DNNInfo_ImageGallery_LightBoxImageBox
+{
+    background:#eeeeee;
+    border:5px double #eeeeee;
+    display:block;
+    width:100px;
+	height:100px;
+}
+
+.DNNInfo_ImageGallery_LightBoxImageMouseOver{
+    background-color:#e4dfdf;
+    border:solid 5px #e4dfdf;
+    display:block;
+}
+
+.DNNInfo_ImageGallery_LightBoxTitle
+{
+	font-size:14px;
+	color:#2c6ff6;
+	padding-bottom:5px;
+}
+
+.DNNInfo_ImageGallery_LightBoxDescription
+{
+	font-size:11px;
+	color:#c0bbbb;
+	font-style:italic;
+	padding-bottom:5px;
+}
+
+.DNNInfo_ImageGallery_LightBoxClearBoth
+{
+    clear:both;
+}
+/******************************** END IMAGES *******************************/
+
+/******************************** MISC *******************************/
+.DNNInfo_ImageGallery_LightBoxGalleryPaging
+{
+	line-height:25px;
+    height:25px;
+    padding:0px 10px;
+	background-color:#ededed;
+	margin-bottom:5px;
+}
+
+.DNNInfo_ImageGallery_LightBoxGalleryPaging a.linkSelected{
+    font-weight:bold;
+    text-decoration:underline;
+    color:#4646dd;
+}
+
+.DNNInfo_ImageGallery_LightBoxGalleryBreadCrumb, .DNNInfo_ImageGallery_LightBoxGalleryBreadCrumb a
+{
+	font-size:11px;
+	text-decoration:none;
+}
+
+.DNNInfo_ImageGallery_LightBoxGalleryBreadCrumb
+{
+	margin-bottom:8px;
+}
+
+
+.DNNInfo_ImageGallery_LightBoxAlbumMouseOver{
+    background-color:#8facdf;
+}
+
+.DNNInfo_ImageGallery_LightBoxImageMouseOver{
+    background-color:#8facdf;
+}
+
+/******************************** END MISC *******************************/

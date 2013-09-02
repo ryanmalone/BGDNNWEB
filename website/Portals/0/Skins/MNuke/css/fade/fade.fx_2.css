@@ -1,0 +1,170 @@
+.mj-slideshow-slide { -webkit-transition: opacity 1s linear; -moz-transition: opacity 1s linear; transition: opacity 1s linear;  }
+#mj-slideshow-slide-1 { opacity: 1; z-index: 99; }
+
+.mj-slideshow-arrow-slide-one { width: 0; height: 0; }
+.mj-slideshow-arrow-slide-two { width: 0; height: 0; }
+
+#mj-slideshow-slide-1-target:target ~ #mj-slideshow-play { opacity: 1; }
+#mj-slideshow-slide-2-target:target ~ #mj-slideshow-play { opacity: 1; }
+
+#mj-slideshow-slide-1-target:target ~ #mj-slideshow-slide-1 { opacity: 1 !important; z-index: 99 !important; }
+#mj-slideshow-slide-1-target:target ~ .mj-slideshow-slide { opacity: 0; z-index: 1; }
+
+#mj-slideshow-slide-1-target:target ~ .mj-slideshow-pager-wrap #mj-slideshow-pager-1 { background: #888; }
+#mj-slideshow-slide-1-target:target ~ .mj-slideshow-arrow-slide-one { width: 40px !important; height: 42px !important; }
+#mj-slideshow-slide-1-target:target ~ .mj-slideshow-arrow { width: 0; height: 0; }
+
+
+#mj-slideshow-slide-2-target:target ~ #mj-slideshow-slide-2 { opacity: 1 !important; z-index: 99 !important; }
+#mj-slideshow-slide-2-target:target ~ .mj-slideshow-slide { opacity: 0; z-index: 1; }
+
+#mj-slideshow-slide-2-target:target ~ .mj-slideshow-pager-wrap #mj-slideshow-pager-2 { background: #888; }
+#mj-slideshow-slide-2-target:target ~ .mj-slideshow-arrow-slide-two { width: 40px !important; height: 42px !important; }
+#mj-slideshow-slide-2-target:target ~ .mj-slideshow-arrow { width: 0; height: 0; }
+
+
+#mj-slideshow-slide-1 { -webkit-animation: slide-one 24s infinite; -moz-animation: slide-one 24s infinite; animation: slide-one 24s infinite; }
+#mj-slideshow-slide-2 { -webkit-animation: slide-two 24s infinite; -moz-animation: slide-two 24s infinite; animation: slide-two 24s infinite; }
+
+#mj-slideshow-pager-1 { -webkit-animation: slide-one-pager 24s infinite; -moz-animation: slide-one-pager 24s infinite; animation: slide-one-pager 24s infinite; }
+#mj-slideshow-pager-2 { -webkit-animation: slide-two-pager 24s infinite; -moz-animation: slide-two-pager 24s infinite; animation: slide-two-pager 24s infinite; }
+
+.mj-slideshow-arrow-slide-one { -webkit-animation: slide-one-arrows 24s infinite; -moz-animation: slide-one-arrows 24s infinite; animation: slide-one-arrows 24s infinite; }
+.mj-slideshow-arrow-slide-two { -webkit-animation: slide-two-arrows 24s infinite; -moz-animation: slide-two-arrows 24s infinite; animation: slide-two-arrows 24s infinite; }
+
+@-webkit-keyframes slide-one {
+	0% { opacity: 1; }
+	43.75% { opacity: 1; }
+	56.25% { opacity: 0; }
+	87.5% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-webkit-keyframes slide-one-pager {
+	0% { background: #888; }
+	43.75% { background: #888; }
+	56.25% { background: #ccc; }
+	87.5% { background: #ccc; }
+	100% { background: #888; }
+}
+@-webkit-keyframes slide-one-arrows {
+	0% { width: 40px; height: 42px; }
+	49.999% { width: 40px; height: 42px; }
+	50% { width: 0; height: 0; }
+	100% { width: 0; height: 0; }
+}
+@-moz-keyframes slide-one {
+	0% { opacity: 1; }
+	43.75% { opacity: 1; }
+	56.25% { opacity: 0; }
+	87.5% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@-moz-keyframes slide-one-pager {
+	0% { background: #888; }
+	43.75% { background: #888; }
+	56.25% { background: #ccc; }
+	87.5% { background: #ccc; }
+	100% { background: #888; }
+}
+@-moz-keyframes slide-one-arrows {
+	0% { width: 40px; height: 42px; }
+	49.999% { width: 40px; height: 42px; }
+	50% { width: 0; height: 0; }
+	100% { width: 0; height: 0; }
+}
+@keyframes slide-one {
+	0% { opacity: 1; }
+	43.75% { opacity: 1; }
+	56.25% { opacity: 0; }
+	87.5% { opacity: 0; }
+	100% { opacity: 1; }
+}
+@keyframes slide-one-pager {
+	0% { background: #888; }
+	43.75% { background: #888; }
+	56.25% { background: #ccc; }
+	87.5% { background: #ccc; }
+	100% { background: #888; }
+}
+@keyframes slide-one-arrows {
+	0% { width: 40px; height: 42px; }
+	49.999% { width: 40px; height: 42px; }
+	50% { width: 0; height: 0; }
+	100% { width: 0; height: 0; }
+}
+@-webkit-keyframes slide-two {
+	0% { opacity: 0; }
+	43.75% { opacity: 0; }
+	56.25% { opacity: 1; }
+	87.5% { opacity: 1; }
+	100% { opacity: 0; }
+}
+@-webkit-keyframes slide-two-pager {
+	0% { background: #ccc; }
+	43.75% { background: #ccc; }
+	56.25% { background: #888; }
+	87.5% { background: #888; }
+	100% { background: #ccc; }
+}
+@-webkit-keyframes slide-two-arrows {
+	0% { width: 0; height: 0; }
+	49.999% { width: 0; height: 0; }
+	50% { width: 40px; height: 42px; }
+	99.999% { width: 40px; height: 42px; }
+	100% { width: 0; height: 0; }
+}
+@-moz-keyframes slide-two {
+	0% { opacity: 0; }
+	43.75% { opacity: 0; }
+	56.25% { opacity: 1; }
+	87.5% { opacity: 1; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes slide-two-pager {
+	0% { background: #ccc; }
+	43.75% { background: #ccc; }
+	56.25% { background: #888; }
+	87.5% { background: #888; }
+	100% { background: #ccc; }
+}
+@-moz-keyframes slide-two-arrows {
+	0% { width: 0; height: 0; }
+	49.999% { width: 0; height: 0; }
+	50% { width: 40px; height: 42px; }
+	99.999% { width: 40px; height: 42px; }
+	100% { width: 0; height: 0; }
+}
+@keyframes slide-two {
+	0% { opacity: 0; }
+	43.75% { opacity: 0; }
+	56.25% { opacity: 1; }
+	87.5% { opacity: 1; }
+	100% { opacity: 0; }
+}
+@keyframes slide-two-pager {
+	0% { background: #ccc; }
+	43.75% { background: #ccc; }
+	56.25% { background: #888; }
+	87.5% { background: #888; }
+	100% { background: #ccc; }
+}
+@keyframes slide-two-arrows {
+	0% { width: 0; height: 0; }
+	49.999% { width: 0; height: 0; }
+	50% { width: 40px; height: 42px; }
+	99.999% { width: 40px; height: 42px; }
+	100% { width: 0; height: 0; }
+}
+
+
+
+#mj-slideshow-slide-1-target:target ~ .mj, #mj-slideshow-slide-1-target:target ~ .mj .mj  { -webkit-animation: none; -moz-animation: none; animation: none; }
+#mj-slideshow-slide-2-target:target ~ .mj, #mj-slideshow-slide-2-target:target ~ .mj .mj  { -webkit-animation: none; -moz-animation: none; animation: none; }
+
+#mj-slideshow-play:target ~ .mj-slideshow-pager-wrap #mj-slideshow-pager-1 { -webkit-animation: slide-one-pager 24s infinite linear; -moz-animation: slide-one-pager 24s infinite linear; animation: slide-one-pager 24s infinite linear; }
+#mj-slideshow-play:target ~ .mj-slideshow-pager-wrap #mj-slideshow-pager-2 { -webkit-animation: slide-two-pager 24s infinite linear; -moz-animation: slide-two-pager 24s infinite linear; animation: slide-two-pager 24s infinite linear; }
+
+#mj-slideshow-play:target ~ .mj-slideshow-arrow-slide-one { -webkit-animation: slide-one-arrows 24s infinite linear; -moz-animation: slide-one-arrows 24s infinite linear; animation: slide-one-arrows 24s infinite linear; }
+#mj-slideshow-play:target ~ .mj-slideshow-arrow-slide-two { -webkit-animation: slide-two-arrows 24s infinite linear; -moz-animation: slide-two-arrows 24s infinite linear; animation: slide-two-arrows 24s infinite linear; }
+
+

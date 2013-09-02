@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Theme>
+    <global_font>
+        <font-family>Verdana,Arial,sans-serif</font-family>
+        <font-weight>bold</font-weight>
+        <font-size>0.8em</font-size>
+     </global_font>
+    <global_corner_radius>
+        <corner-radius>3px</corner-radius>
+    </global_corner_radius>
+    
+    
+    <!-- top level item -->
+    <top_default_background>
+        <background>#404040</background>
+        <texture></texture>
+        <opacity>100</opacity>
+    </top_default_background>
+    <top_default_color>
+        <color>#ffffff</color>
+    </top_default_color>
+    <top_default_border>
+        <border-color>#404040</border-color>
+        <border-size>0px</border-size>
+    </top_default_border>
+    
+    
+    <top_hover_background>
+        <background>#5A5A5A</background>
+        <texture></texture>
+        <opacity>100</opacity>
+    </top_hover_background>
+    <top_hover_color>
+        <color>#ffffff</color>
+    </top_hover_color>
+    <top_hover_border>
+        <border-color>#5A5A5A</border-color>
+        <border-size>0px</border-size>
+    </top_hover_border>
+    
+    <top_active_background>
+        <background>#EB4C07</background>
+        <texture></texture>
+        <opacity>100</opacity>
+    </top_active_background>
+    <top_active_color>
+        <color>#ffffff</color>
+    </top_active_color>
+    <top_active_border>
+        <border-color>#EB4C07</border-color>
+        <border-size>0px</border-size>
+    </top_active_border>
+    
+    <!-- inner level item -->
+    <inner_default_background>
+        <background>#2C2C2C</background>
+        <texture></texture>
+        <opacity>100</opacity>
+    </inner_default_background>
+    <inner_default_color>
+        <color>#ffffff</color>
+    </inner_default_color>
+    <inner_default_border>
+        <border-color>#2C2C2C</border-color>
+        <border-size>0px</border-size>
+    </inner_default_border>
+    
+    <inner_hover_background>
+        <background>#5A5A5A</background>
+        <texture></texture>
+        <opacity>100</opacity>
+    </inner_hover_background>
+    <inner_hover_color>
+        <color>#ffffff</color>
+    </inner_hover_color>
+    <inner_hover_border>
+        <border-color>#5A5A5A</border-color>
+        <border-size>0px</border-size>
+    </inner_hover_border>
+    
+    <inner_active_background>
+        <background>#EB4C07</background>
+        <texture></texture>
+        <opacity>100</opacity>
+    </inner_active_background>
+    <inner_active_color>
+        <color>#ffffff</color>
+    </inner_active_color>
+    <inner_active_border>
+        <border-color>#EB4C07</border-color>
+        <border-size>0px</border-size>
+    </inner_active_border>
+</Theme>

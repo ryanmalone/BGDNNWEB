@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+  <skin_id>SuperFishMenuHorizontal</skin_id>
+  <skin_image>skin_preview.png</skin_image>
+  <template_name>Superfish Horizontal Menu</template_name>
+  <description>The theme is based on SuperFish jQuery plugin - easy way to get SEO friendly CSS dropdown menu with cool JavaScript effects.</description>
+  <default>true</default>
+  <version>1.0</version>
+  <html>
+    <renderer>html/WrapperTemplate.ascx</renderer>
+  </html>
+  <js>
+    <files>
+      <file unique="true" unique_name="jquery-1.3.2.min.cs">
+        <path>js/jquery-1.3.2.min.cs.js</path>
+      </file>
+      <file unique="true" unique_name="superfish">
+        <path>js/superfish.js</path>
+      </file>
+      <file unique="true" unique_name="superfish-init">
+        <path>js/superfish-init.js</path>
+      </file>
+    </files>
+  </js>
+  <css>
+    <root_css_class>{skin_id}</root_css_class>
+    <files>
+      <file unique="true" unique_name="superfish">
+        <path>css/superfish.css</path>
+      </file>
+      <file unique="true" unique_name="theme-default">
+        <path>theme.css</path>
+      </file>
+    </files>
+  </css>
+  <theme>
+    <template>css/generated-theme.css</template>
+    <values>css/default-theme.xml</values>
+  </theme>
+</skin>

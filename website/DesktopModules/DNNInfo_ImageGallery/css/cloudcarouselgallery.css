@@ -1,0 +1,77 @@
+﻿
+/* Cloud Carousel Gallery */
+.DNNInfo_ImageGallery_CloudCarouselBox
+{
+    position:relative;
+    overflow:scroll;
+}
+
+ul.DNNInfo_ImageGallery_CloudCarouselUL, ul.DNNInfo_ImageGallery_CloudCarouselUL li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.DNNInfo_ImageGallery_CloudCarouselButtonPrevWrapper,.DNNInfo_ImageGallery_CloudCarouselButtonNextWrapper
+{
+    width:24px;
+    height:24px;
+    cursor:pointer;
+    display:block;
+    position:absolute;
+    right:60px;
+    top:15px;
+}
+
+.DNNInfo_ImageGallery_CloudCarouselButtonNextWrapper
+{
+    right:25px;
+}
+
+.DNNInfo_ImageGallery_CloudCarouselButtonPrevWrapper input,.DNNInfo_ImageGallery_CloudCarouselButtonNextWrapper  input
+{
+    width:24px;
+    height:24px;
+    cursor:pointer;
+    display:block;
+    border:none;
+    background:url(images/cloudcarousel/btn_prev.png) no-repeat;
+}
+
+.DNNInfo_ImageGallery_CloudCarouselButtonNextWrapper  input
+{
+    background:url(images/cloudcarousel/btn_next.png) no-repeat;
+}
+
+.DNNInfo_ImageGallery_CloudCarouselImageTextInfo
+{
+    position:absolute;
+    left:20px;
+    top:20px;
+}
+
+.DNNInfo_ImageGallery_CloudCarouselTitleText
+{
+    color:#FF9900;
+    font-family:Georgia,Times,serif;
+    font-size:15px;
+    font-weight:bold;
+    letter-spacing:1px;
+    margin-bottom:10px;
+    text-transform:uppercase;
+	display:block;
+	width:400px;
+}
+
+.DNNInfo_ImageGallery_CloudCarouselTitleAlt
+{
+    color:#DDDDDD;
+    font-size:11px;
+    font-weight:normal;
+	width:400px;
+}
+
+.reflection
+{
+    border:none;
+}

@@ -1,0 +1,116 @@
+<div id="dnn_ctr659_HtmlModule_lblContent" class="Normal">
+	<div id="mj-slideshow">
+<div class="mj-subcontainer">
+<div class="moduletable">
+<!-- Adding the Main CSS File -->
+<!-- For IE -->
+<!--[if IE]>
+    
+    
+    
+    
+    <![endif]-->
+<meta name="viewport" content="width=device-width" />
+<div id="main_mj-slideshow" style="height: 380px; max-width: 1075px;">
+<div class="mj-slideshow-wrap" style="height: 100%; width: 100%;">
+<div class="mj-slideshow-fixed" id="mj-slideshow-slide-1-target"></div>
+<div class="mj-slideshow-fixed" id="mj-slideshow-slide-2-target"></div>
+<div class="mj-slideshow-fixed" id="mj-slideshow-slide-3-target"></div>
+<div class="mj-slideshow-fixed" id="mj-slideshow-play"></div>
+<div class="mj-slideshow-pager-wrap mj">
+<div class="mj-slideshow-play" id="mj-slideshow-play"><a href="#mj-slideshow-play"></a></div>
+<div class="mj-slideshow-pager mj" id="mj-slideshow-pager-1"><a href="#mj-slideshow-slide-1-target"></a></div>
+<div class="mj-slideshow-pager mj" id="mj-slideshow-pager-2"><a href="#mj-slideshow-slide-2-target"></a></div>
+<div class="mj-slideshow-pager mj" id="mj-slideshow-pager-3"><a href="#mj-slideshow-slide-3-target"></a></div>
+</div>
+<div class="mj-slideshow-arrow mj mj-slideshow-arrow-next mj-slideshow-arrow-slide-one"><a href="#mj-slideshow-slide-2-target"></a></div>
+<div class="mj-slideshow-arrow mj mj-slideshow-arrow-prev mj-slideshow-arrow-slide-one"><a href="#mj-slideshow-slide-3-target"></a></div>
+<div class="mj-slideshow-arrow mj mj-slideshow-arrow-next mj-slideshow-arrow-slide-two"><a href="#mj-slideshow-slide-3-target"></a></div>
+<div class="mj-slideshow-arrow mj mj-slideshow-arrow-prev mj-slideshow-arrow-slide-two"><a href="#mj-slideshow-slide-1-target"></a></div>
+<div class="mj-slideshow-arrow mj mj-slideshow-arrow-next mj-slideshow-arrow-slide-three"><a href="#mj-slideshow-slide-1-target"></a></div>
+<div class="mj-slideshow-arrow mj mj-slideshow-arrow-prev mj-slideshow-arrow-slide-three"><a href="#mj-slideshow-slide-2-target"></a></div>
+<!--Slides -->
+<div class="mj-slideshow-slide mj" id="mj-slideshow-slide-1">
+<div class="mj-slideshow-slide-content mj" style="height: 380px; max-width: 100%;">
+<div class="mj-slideshow-text mj" style="width: 40%; float: left;">
+<div class="text" style="width: 89%; text-align: left;">
+<!-- CONTENT FOR THE LEFT BOX GOES HERE: -->
+<h3> Responsive DNN Template </h3>
+<div class="desc">
+<div class="tagline">Works with Mobiles, Tablets and Desktops</div>
+<p>
+Mj Simple uses Solid grid system and Media queries to optimize Joomla pages for Iphone, Ipad, Android and other mobiles as well as tablets and desktops.
+</p>
+<a class="mj-whitebutton" href="#">Demo</a>
+<a class="mj-whitebutton" href="#">Download</a> </div>
+</div>
+</div>
+<div class="mj-slideshow-image mj" style="width: 60%; position: relative;">
+<!-- CONTENT FOR THE RIGHT BOX GOES HERE: -->
+<div class="image" style="max-width: 100%;">
+<img src="/Portals/_default/Skins/MNuke/images/slide-1.png" alt="image" />
+</div>
+</div>
+</div>
+</div>
+<div class="mj-slideshow-slide mj" id="mj-slideshow-slide-2">
+<div class="mj-slideshow-slide-content mj" style="height: 380px; max-width: 100%;">
+<div class="mj-slideshow-text mj" style="width: 40%; float: left;">
+<div class="text" style="width: 89%; text-align: left;">
+<!-- CONTENT FOR THE LEFT BOX GOES HERE: -->
+<h3> Innovative slideshow and menu </h3>
+<div class="desc">
+<div class="tagline">Responsive slideshow and menu</div>
+<ul class="mj-bullet9 resposlide">
+    <li>Customizable slides</li>
+    <li>Add upto five slides</li>
+    <li>Image processor that optimizes image for various screens</li>
+    <li>Menu that adjusts automatically</li>
+    <li>Compact menu for small screen sizes</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="mj-slideshow-image mj" style="width: 60%; position: relative;">
+<!-- CONTENT FOR THE RIGHT BOX GOES HERE: -->
+<div class="image" style="max-width: 100%;">
+<img src="/Portals/_default/Skins/MNuke/images/slide-2.png" alt="image" />
+</div>
+</div>
+</div>
+</div>
+<div class="mj-slideshow-slide mj" id="mj-slideshow-slide-3">
+<div class="mj-slideshow-slide-content mj" style="height: 380px; max-width: 100%;">
+<div class="mj-slideshow-text mj" style="width: 40%; float: left;">
+<div class="text" style="width: 89%; text-align: left;">
+<!-- CONTENT FOR THE LEFT BOX GOES HERE: -->
+<h3> Selection of Eight colors </h3>
+<div class="desc">
+<div class="tagline">Adopt colors, based on your logo</div>
+<ul class="mj-bullet10">
+    <li>Eye catchy Red</li>
+    <li>Corporate Blue</li>
+    <li>Ecofriendly Green</li>
+    <li>Elegant Cyan</li>
+    <li>Busy Gray</li>
+    <li>Softy Pink</li>
+    <li>Lively Orange</li>
+    <li>Moderate Yellow</li>
+</ul>
+<a class="mj-whitebutton" href="#">Explore</a> </div>
+</div>
+</div>
+<div class="mj-slideshow-image mj" style="width: 60%; position: relative;">
+<!-- CONTENT FOR THE RIGHT BOX GOES HERE: -->
+<div class="image" style="max-width: 100%;">
+<img src="/Portals/_default/Skins/MNuke/images/slide-3.png" alt="image" />
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>

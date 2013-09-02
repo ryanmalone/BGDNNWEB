@@ -1,0 +1,166 @@
+/*
+* @package mj_simple
+* @copyright (C) 2012 by Dasinfomedia - All rights reserved!
+*/
+
+
+/*Search button css*/
+#dnn_search_cmdSearch {
+    background-color: #1A5DA2;
+border: 1px solid #1A5DA2;
+}
+
+
+
+.read-more, .read-more a, #mj-featured1 h3, #mj-maincontent h3, #mj-maincontent .item-page h2, a,h1, h2, h3, h4 ,h5, h6,
+.contact .star  {
+    color: #1A5DA2;
+}
+
+.mj-colorbox {
+    background: none repeat scroll 0 0 #1A5DA2;
+    border: 1px solid #2789C7;
+}
+
+ol > li:before {
+    border-bottom: 5px solid #1A5DA2;
+}
+
+#mj-slideshow, #mj-slidetitle {
+	background-color: #1A5DA2;
+	border-bottom: 3px solid #71C9FF;
+}
+
+#mj-footer {
+	background: url(../images/footer_bg.png) repeat 0 0 transparent;
+	color: #FFFFFF;
+	background-color: #1A5DA2;
+}
+
+/* menu css start */
+
+ul.menu li li:first-child {
+    border-top: 3px solid #1A5DA2;
+}
+
+ul.menu li li:hover a, ul.menu li li.active a,
+ul.menu li li li:hover a, ul.menu li li li.active a {
+	color: #1A5DA2 !important;
+}
+
+ul.menu li li.parent:hover a, ul.menu li li.parent.active a {
+    background: url(../images/menu_arrow/blue1.png) no-repeat scroll right center transparent;
+}
+
+#mj-left ul.menu li:hover a, #mj-left ul.menu li.active a,
+#mj-right ul.menu li:hover a, #mj-right ul.menu li.active a {
+	color:#1A5DA2;
+}
+
+#mj-left ul.menu li.parent.active a, #mj-left ul.menu li.parent.active li.parent a,
+#mj-left ul.menu li.parent.active:hover li.parent a,
+#mj-right ul.menu li.parent.active a, #mj-right ul.menu li.parent.active li.parent a,
+#mj-right ul.menu li.parent.active:hover li.parent a {
+	background: url(../images/menu_arrow/blue1.png) no-repeat scroll right center transparent;
+}
+
+#mj-left ul.menu li.parent.active:hover a, #mj-left ul.menu li.parent.active li.parent:hover a,
+#mj-right ul.menu li.parent.active:hover a, #mj-right ul.menu li.parent.active li.parent:hover a {
+	background: url(../images/menu_arrow/blue2.png) no-repeat scroll right center transparent;
+}
+
+#mj-left li li li.active a,
+#mj-right li li li.active a {
+    color: #1A5DA2 !important;
+}
+
+/* menu css end */
+
+.pagination li {
+    border-bottom: 5px solid #1A5DA2;
+}
+
+#mj-logo img {
+	background-color:#1A5DA2;
+}
+
+.button, input[type="submit"], input[type="reset"], input[type="button"], .readmore, button {
+	background-color: #1A5DA2;
+	border:1px solid #1A5DA2;
+}
+
+#mj-footer li a {
+	border-bottom: 1px dashed #92B2D3;
+}
+
+.read-more {
+	background: url(../images/menu_arrow/blue1.png) no-repeat right center transparent;
+}
+
+/* Tab CSS Start */
+
+.tabber_container div.tabber_nav li.tabber_tab.active a, .tabber_container  div.tabber_nav li.tabber_tab.active a:hover {
+    background: #1A5DA2;
+}
+
+.tabber_container div.tabber_nav li.tabber_tab a:hover {
+    background-color: #71C9FF;
+}
+
+.tabber_container div.tabber_content {
+    border-color: #1A5DA2 !important;
+}
+
+/* Tab CSS End */
+
+.nspArt.nspCol3:hover img, .nspArt.nspCol3:hover .nspText {
+	border-color: #1A5DA2;
+}
+
+
+
+
+#module_hover:hover img, #module_hover .moduletable:hover img{
+	
+border:5px solid #1A5DA2;
+}
+
+
+.wk-twitter article {
+	border-top: 1px dashed #92B2D3 !important;
+}
+
+.mj-mainnav.navbar .nav > li ul.nav-child li:first-child {
+	border-top: 5px solid #1A5DA2;
+}
+
+.nspArtPage .nspArt.nspCol3:hover img {
+    border-bottom: 5px solid #1A5DA2;
+}
+
+#mj-header .nav-child li.parent:hover a, #mj-header .nav-child li.parent.active a {
+	background: url(../images/menu_arrow/blue1.png) no-repeat center right;
+}
+
+#mj-header .nav-child li:hover a, #mj-header .nav-child li.parent:hover li:hover a,
+#mj-header .nav-child li.active a, #mj-header .nav-child li.parent.active li.active a {
+	color: #1A5DA2;
+}
+
+.mj-event-time .mj-month, .mj-block-number .mj-bottom, .mj-section-title {
+	background-color: #1A5DA2 !important;
+}
+
+thead tr {
+	background-color: #1A5DA2 !important;
+	color:#ffffff;
+}
+ 
+.result-created {
+    border-bottom: 1px dashed #1A5DA2;
+} 
+
+#mj-left ul.menu li li li:hover a, #mj-left ul.menu li li li.active a,
+#mj-right ul.menu li li li:hover a, #mj-right ul.menu li li li.active a {
+	color: #1A5DA2 !important;
+}

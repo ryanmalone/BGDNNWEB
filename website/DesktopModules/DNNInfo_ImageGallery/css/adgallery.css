@@ -1,0 +1,161 @@
+﻿/******************************** ALBUMS *******************************/
+ul.ad-thumb-list, ul.ad-thumb-list li{
+	list-style:none;
+}
+
+.DNNINfo_ImageGallery_AdGalleryAlbumWrapper{
+    display:inline-block;
+}
+
+ul.DNNInfo_ImageGallery_AdGalleryULAlbums, ul.DNNInfo_ImageGallery_AdGalleryULAlbums li
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+ul.DNNInfo_ImageGallery_AdGalleryULAlbums li{
+	width:300px;
+    float:left;
+    margin:0px 8px 5px 0px;
+}
+
+.DNNInfo_ImageGallery_AdGalleryAlbumBox{
+    background:#eeeeee;
+    border:3px double #eeeeee;
+    padding:5px;
+    cursor:pointer;
+    display:inline-table;
+    min-height:80px;
+    height:auto !important;
+    height:80px;
+    text-align:left;
+}
+
+.DNNInfo_ImageGallery_AdGalleryAlbumName{
+    color:#3a3838;
+    font-weight:bold;
+    font-size:14px;
+}
+
+.DNNInfo_ImageGallery_AdGalleryAlbumDescription{
+     color:#4a4d4a;
+     font-size:11px;
+     margin-bottom:5px;
+}
+
+.DNNInfo_ImageGallery_AdGalleryAlbumCreatedDate, .DNNInfo_ImageGallery_AdGalleryAlbumCreatedBy, .DNNInfo_ImageGallery_AdGalleryTotalImages
+{
+	font-size:10px;
+	color:#6d6767;
+}
+
+
+.DNNInfo_ImageGallery_AdGalleryAlbumImageBox{
+    width:110px;
+    float:left;
+}
+
+.DNNInfo_ImageGallery_AdGalleryAlbumInfo{
+    width:170px;
+    float:right;
+    text-align:left;
+}
+
+.DNNInfo_ImageGallery_AdGalleryEmpty
+{
+	padding:0px 5px;
+	font-size:11px;
+}
+
+/******************************** END ALBUMS *******************************/
+
+/******************************** IMAGES *******************************/
+.DNNINfo_ImageGallery_AdGalleryImageWrapper{
+ 
+}
+
+.DNNInfo_ImageGallery_AdGalleryImageBox
+{
+	background:#eeeeee;
+    border:3px double #eeeeee;
+    padding:5px;
+    cursor:pointer;
+    display:inline-table;
+    min-height:100px;
+    height:auto !important;
+    height:100px;
+    text-align:left;
+}
+
+ul.DNNInfo_ImageGallery_AdGalleryULImages, ul.DNNInfo_ImageGallery_AdGalleryULImages li
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+ul.DNNInfo_ImageGallery_AdGalleryULImages li{
+    float:left;
+    margin:0px 8px 5px 0px;
+}
+
+.DNNInfo_ImageGallery_AdGalleryImageMouseOver{
+    background-color:#e4dfdf;
+    border:solid 3px #e4dfdf;
+}
+
+.DNNInfo_ImageGallery_AdGalleryTitle
+{
+	font-size:14px;
+	color:#2c6ff6;
+	padding-bottom:5px;
+}
+
+.DNNInfo_ImageGallery_AdGalleryDescription
+{
+	font-size:11px;
+	color:#c0bbbb;
+	font-style:italic;
+	padding-bottom:5px;
+}
+
+/******************************** END IMAGES *******************************/
+
+/******************************** MISC *******************************/
+.DNNInfo_ImageGallery_AdGalleryGalleryPaging
+{
+	line-height:25px;
+    height:25px;
+    padding:0px 10px;
+	background-color:#ededed;
+	margin-bottom:5px;
+}
+
+.DNNInfo_ImageGallery_AdGalleryGalleryPaging a.linkSelected{
+    font-weight:bold;
+    text-decoration:underline;
+    color:#4646dd;
+}
+
+.DNNInfo_ImageGallery_AdGalleryGalleryBreadCrumb, .DNNInfo_ImageGallery_AdGalleryGalleryBreadCrumb a
+{
+	font-size:11px;
+	text-decoration:none;
+}
+
+.DNNInfo_ImageGallery_AdGalleryGalleryBreadCrumb
+{
+	margin-bottom:8px;
+}
+
+
+.DNNInfo_ImageGallery_AdGalleryAlbumMouseOver{
+    background-color:#8facdf;
+}
+
+.DNNInfo_ImageGallery_AdGalleryImageMouseOver{
+    background-color:#8facdf;
+}
+
+/******************************** END MISC *******************************/

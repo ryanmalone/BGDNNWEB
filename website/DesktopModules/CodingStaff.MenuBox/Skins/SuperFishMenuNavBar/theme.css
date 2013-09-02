@@ -1,0 +1,192 @@
+/*reset default properties*/
+
+.SuperFishMenuNavBar .sf-menu a {
+	border-left: none;
+	border-top: none;
+}
+
+.SuperFishMenuNavBar .sf-navbar li.current {
+	background:		none;
+}
+.SuperFishMenuNavBar .sf-navbar li:hover,
+.SuperFishMenuNavBar .sf-navbar li.sfHover,
+.SuperFishMenuNavBar .sf-navbar li li.current,
+.SuperFishMenuNavBar .sf-navbar a:focus, 
+.SuperFishMenuNavBar .sf-navbar a:hover, 
+.SuperFishMenuNavBar .sf-navbar a:active {
+	background:		none;
+}
+
+.SuperFishMenuNavBar .sf-navbar ul li:hover,
+.SuperFishMenuNavBar .sf-navbar ul li.sfHover,
+.SuperFishMenuNavBar ul.sf-navbar ul li:hover li,
+.SuperFishMenuNavBar ul.sf-navbar ul li.sfHover li,
+.SuperFishMenuNavBar .sf-navbar ul a:focus, 
+.SuperFishMenuNavBar .sf-navbar ul a:hover, 
+.SuperFishMenuNavBar .sf-navbar ul a:active {
+	background:		none;
+}
+.SuperFishMenuNavBar ul.sf-navbar li li li:hover,
+.SuperFishMenuNavBar ul.sf-navbar li li li.sfHover,
+.SuperFishMenuNavBar .sf-navbar li li.current li.current,
+.SuperFishMenuNavBar .sf-navbar ul li li a:focus, 
+.SuperFishMenuNavBar .sf-navbar ul li li a:hover, 
+.SuperFishMenuNavBar .sf-navbar ul li li a:active {
+	background:		none;
+}
+
+.SuperFishMenuNavBar ul.sf-navbar > li > ul {
+	width:60em; /* change width of submenu */
+}
+
+.SuperFishMenuNavBar ul.sf-navbar {
+	height:auto;
+	padding-bottom:0;
+	padding: 3px;
+}
+
+.SuperFishMenuNavBar .sf-menu li:hover ul,
+.SuperFishMenuNavBar .sf-menu li.sfHover ul {
+	top:			2.8em;
+}
+
+
+
+/* generated styles */
+
+
+/* global settings */
+.SuperFishMenuNavBar ul.sf-menu {
+	font-family:Verdana,Arial,sans-serif;
+	font-weight:bold;
+	font-size:0.8em;
+	color: #ffffff ;
+}
+
+.SuperFishMenuNavBar ul.sf-menu > li {
+	background: transparent;
+	margin-left: 0.3em;
+}
+
+.SuperFishMenuNavBar ul.sf-menu > li > a {
+	padding: 0.6em 0.5em;
+	padding-right: 1.65em !important;
+	
+}
+
+
+/* top level default styles */
+.SuperFishMenuNavBar ul.sf-menu {
+	background: #404040  ;
+}
+
+.SuperFishMenuNavBar ul.sf-menu a, .SuperFishMenuNavBar ul.sf-menu a:visited {
+	color: #ffffff ;
+	border: #404040 solid 0px ;
+}
+
+/* top level hover styles */
+
+.SuperFishMenuNavBar ul.sf-menu > li > a:hover,
+.SuperFishMenuNavBar ul.sf-menu > li.sfHover > a {
+	color: #ffffff ;
+	background: #5A5A5A  ;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+    border: #5A5A5A solid 0px ;
+}
+
+/* top level selected styles */
+
+.SuperFishMenuNavBar ul.sf-menu > li.current > a {
+	color: #ffffff ;
+	background: #EB4C07  ;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+    border: #EB4C07 solid 0px ;
+}
+
+
+
+/* inner level default styles */
+.SuperFishMenuNavBar ul.sf-menu ul li,
+.SuperFishMenuNavBar ul.sf-menu ul li.sfHover,
+.SuperFishMenuNavBar ul.sf-menu ul li:hover {
+	background: #2C2C2C  !important;
+}
+
+.SuperFishMenuNavBar ul.sf-menu ul li.first {
+	-moz-border-radius: 3px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-topright: 0px;
+	
+	-webkit-border-radius: 3px;
+    -webkit-border-bottom-right-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+}
+
+.SuperFishMenuNavBar ul.sf-menu ul li.last {
+	-moz-border-radius: 3px;
+	-moz-border-radius-bottomleft: 0px;
+	-moz-border-radius-topleft: 0px;
+	
+	-webkit-border-radius: 3px;
+	-webkit-border-bottom-left-radius: 0px;
+	-webkit-border-top-left-radius: 0px;
+}
+
+.SuperFishMenuNavBar ul.sf-menu ul a, 
+.SuperFishMenuNavBar ul.sf-menu ul a:visited {
+	color: #ffffff ;
+	margin: 0.2em;
+	background: transparent;
+    border: #2C2C2C solid 0px ;
+}
+
+/* inner level hover styles */
+
+.SuperFishMenuNavBar ul.sf-menu ul li a:hover {
+	color: #ffffff ;
+	background: #5A5A5A  ;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+    border: #5A5A5A solid 0px ;
+}
+
+/* inner level selected styles */
+
+.SuperFishMenuNavBar ul.sf-menu ul li.current a {
+	color: #ffffff ;
+	background: #EB4C07  ;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+    border: #EB4C07 solid 0px ;
+}
+
+/* inner level horizontal (level>1) */
+
+.SuperFishMenuNavBar ul.sf-navbar ul ul li.first {
+	-moz-border-radius: 3px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	
+	-webkit-border-radius: 3px;
+	-webkit-border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+}
+
+.SuperFishMenuNavBar ul.sf-navbar ul ul li.last {
+	-moz-border-radius: 3px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	
+	-webkit-border-radius: 3px;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+}
+
+.SuperFishMenuNavBar.sf-navbar ul ul {
+    padding-top:7px;
+}
+
+
